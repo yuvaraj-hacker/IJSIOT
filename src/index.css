@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("../node_modules/@flaticon/flaticon-uicons/css/all/all.css");
+@import "tailwindcss";
+
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.merry {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+.head-shap{
+  clip-path: polygon(90% 0, 100% 50%, 90% 100%, 0 100%, 0 0);
+}
+
+.bg-primary {
+  background-color: #3E8000;
+}
+
+.bg-secondary {
+  background-color: #719465;
+}
+
+.react-calendar__navigation {
+    background-color: #005248;
+    color: #fff;
+    text-align: center;
+}
+.react-calendar__navigation__label {
+    padding: 5px 20px;
+    height: 50px;
+    width: 170px
+}
+.react-calendar__navigation__label:hover {
+    color: #fff;
+}
+.react-calendar__month-view__weekdays {
+    border: 2px solid #94a3b8;
+    text-align: center;
+    padding: 8px;
+}
+.react-calendar__month-view__weekdays__weekday>abbr {
+    text-decoration: none;
+}
+.react-calendar__month-view__days {
+    border: 2px solid #94a3b8;
+    border-top: none;
+}
+.react-calendar__navigation__arrow:hover {
+    color: #fff;
+}
+.react-calendar__navigation__arrow {
+    padding: 0 25px;
+}
+.current-date {
+    background-color: #005248;
+
+    color: white;
+
+}
+.react-calendar__navigation__prev2-button,
+.react-calendar__navigation__next2-button {
+    display: none;
+}
+.react-calendar__month-view__days__day {
+    padding: 8px;
+}
+
+
+
