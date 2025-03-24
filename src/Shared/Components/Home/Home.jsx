@@ -29,14 +29,16 @@ function Home() {
                   technical reports that contribute to the continuous evolution
                   of robotics and automation technologies.
                 </p>
-                <button className="md:p-3 p-2 border   border-[#3E8000] text-[#3E8000] hover:bg-[#3E8000] hover:text-white duration-300 cursor-pointer w-[170px]">
-                  Submit Your Paper
-                </button>
+                <a href="https://ijatra.com/Ijatra/index.php/ijatra/about/submissions" target="_blank" rel="noopener noreferrer" className="w-fit" >
+                  <button className="md:p-3 p-2 border   border-[#3E8000] text-[#3E8000] hover:bg-[#3E8000] hover:text-white duration-300 cursor-pointer w-[170px]">
+                    Submit Your Paper
+                  </button>
+                </a>
               </div>
               <img className="mx-auto  border p-0.5 border-[#3e8000] w-52 " src="/assets/Images/Image-hero.jpeg" alt="" />
             </section>
             <section className="flex flex-col gap-4">
-            <div className='p-0.5 border border-[#3e8000]'>
+              <div className='p-0.5 border border-[#3e8000]'>
                 <h1 className="bg-primary text-white text-center merry shadow md:p-3 p-2 font-semibold  lg:text-2xl   text-lg ">
                   About
                 </h1>
@@ -61,7 +63,7 @@ function Home() {
 
               <div className='p-0.5 border border-[#3e8000]'>
                 <h1 className="bg-primary text-white text-center merry shadow md:p-3 p-2 font-semibold  lg:text-2xl   text-lg ">
-                 Journal  overview
+                  Journal  overview
                 </h1>
               </div>
 
@@ -76,7 +78,7 @@ function Home() {
                   </div>
                   <div className="bg-[#719465] p-2 flex justify-between items-center">
                     <div className="md:p-4 p-3 rounded-full bg-white w-fit relative bottom-7 border border-[#3E8000] text-[#3E8000]">
-                      <FaUnlockAlt  />
+                      <FaUnlockAlt />
                     </div>
                     <div>
                       <Link to="/about">
@@ -130,9 +132,9 @@ function Home() {
               </div>
             </section>
             <section className="flex flex-col gap-4">
-            <div className='p-0.5 border border-[#3e8000]'>
+              <div className='p-0.5 border border-[#3e8000]'>
                 <h1 className="bg-primary text-white text-center merry shadow md:p-3 p-2 font-semibold  lg:text-2xl   text-lg ">
-                The Journal covers following areas :
+                  The Journal covers following areas :
                 </h1>
               </div>
               <div className="grid grid-cols-1 lg:grid-cols-3  md:grid-cols-3">
