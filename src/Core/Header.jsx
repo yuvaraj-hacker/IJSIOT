@@ -123,23 +123,29 @@ const Header = () => {
 
   return (
     <>
-      <section className="bg-primary">
-        <div className="max-w-[90rem] mx-auto md:px-5 px-3 bg-primary ">
+      <section className="bg-[#2F1A00]">
+        <div className="max-w-[100rem] mx-auto md:px-5 px-3 bg-[#2F1A00] ">
           <div className="flex items-center justify-between   lg:gap-0  gap-5  ">
             <Link to="/">
-              <div className="  w-[200px]   ">
-                <div className="bg-white  p-0.5  border border-black  text-center   ">
-                  {/* <p className="  border p-4 px-7 font-bold text-[#3E8000]" >IJATRA</p> */}
-                  <img className=" border p-2 font-bold text-[#3E8000]" src="/assets/Images/IJARTA-New.png" alt="" />
+              <div className="  w-[200px]     ">
+                <div className="bg-[#B49752]    text-center   ">
+                  <p className="   p-4 px-7 font-bold text-white" >IJSIOT</p>
+                  {/* <img className="   font-bold text-[#3E8000]" src="/assets/Images/IJARTA-New.png" alt="" /> */}
                 </div>
               </div>
             </Link>
-            <div className="md:block hidden xl:text-2xl text-xl   merry">
-              International Journal of Advanced Trends in Robotics and Automation
+            <div className="lg:block hidden xl:text-2xl text-xl   merry">
+              International Journal of smart Internet of Things and applications
             </div>
-            <div>
+            <div className="lg:block hidden">
+              <button className="md:p-3 p-2    text-white   flex gap-2       bg-[#B49752]   duration-300 cursor-pointer  ">
+                Submit Your Manuscript
+
+                <i className="fi fi-sr-play text-xs text-white  flex items-center"></i>
+
+              </button>
             </div>
-            <div className="md:hidden block">
+            <div className="lg:hidden block">
               <Hamburger toggled={menuOpen} toggle={setMenuOpen} />
             </div>
           </div>
@@ -175,22 +181,35 @@ const Header = () => {
           </div>
         )}
       </div> */}
-      <section className={`md:bg-white border-[#3E8000] border  ${menuOpen ? " block" : " md:block hidden"}`}>
+      <div className="lg:hidden block border border-[#2F1A00] bg-white  mx-auto text-center ">
+        <button className="md:p-3 p-2  text-center text-[#2F1A00] hover:bg-white bg-white   duration-300 cursor-pointer  ">
+          Submit Your Manuscript
+        </button>
+      </div>
+      <section className={`md:bg-white bg-white border-[#2F1A00] border fixed top-0  right-0 h-full w-64
+  transform transition-transform duration-300 ease-in-out
+  ${menuOpen ? "translate-x-0" : "translate-x-full"}`}>
+        <div className="text-black text-left p-4 cursor-pointer">
+          {/* <p onClick={() => setMenuOpen(false)} className=" text-black">close</p> */}
+          <i onClick={() => setMenuOpen(false)} class="fi fi-rs-circle-xmark text-xl"></i>
+        </div>
         <header className="max-w-[90rem] mx-auto px-5 bg-white ">
-          <div className="flex justify-center md:justify-between items-center py-1">
+          <div className="flex justify-center lg:justify-between  items-center py-1">
             <nav ref={dropdownRef}>
-              <div className={`space-x-1 md:block max-w-[65rem] mx-auto relative  ${menuOpen ? "flex flex-col space-y-4" : " "}`}>
+
+              <div className={`space-x-1   max-w-[65rem] mx-auto relative  ${menuOpen ? "flex flex-col space-y-4" : " "}`}>
+
                 {navLinks.map((link) => (
                   <div
                     key={link.to}
                     className="  inline-block group"
-                    // onMouseEnter={() => handleMouseEnter(link.label)}
-                    // onMouseLeave={handleMouseLeave}
-                    onMouseEnter={() => window.innerWidth >= 768 && handleMouseEnter(link.label)}
-                    onMouseLeave={() => window.innerWidth >= 768 && handleMouseLeave()}
+                  // onMouseEnter={() => handleMouseEnter(link.label)}
+                  // onMouseLeave={handleMouseLeave}
+                  // onMouseEnter={() => window.innerWidth >= 768 && handleMouseEnter(link.label)}
+                  // onMouseLeave={() => window.innerWidth >= 768 && handleMouseLeave()}
                   >
                     <Link to={link.to}
-                      className={` md:border border-[#3E8000] text-[#3E8000]   p-2 flex lg:w-[144px]  transition-all duration-300 ease-in-out    lg:text-base md:text-sm justify-center items-center    gap-2 ${isActive(link.to) || hoveredCategory === link.label ? 'md:bg-[#3E8000] text-[#3E8000] md:text-white' : 'bg-white'} `}
+                      className={` lg:border border-[#2F1A00] text-[#2F1A00]   p-2 flex lg:w-[144px]  transition-all duration-300 ease-in-out     lg:text-base md:text-sm justify-center items-center    gap-2 ${isActive(link.to) || hoveredCategory === link.label ? 'lg:bg-[#3E8000] text-[#2F1A00] lg:text-white' : 'bg-white'} `}
                       onClick={(e) => {
                         if (link.dropdown) {
                           e.preventDefault();
@@ -202,16 +221,16 @@ const Header = () => {
                     >
                       {link.label}
                       {link.dropdown && (
-                        <i className={`fi fi-rr-caret-down flex items-center  transition-all duration-300 ease-in-out  text-[#3E8000] ${isActive(link.to) || hoveredCategory === link.label ? 'bg-[#3E8000] text-white rotate-180 duration-100' : ' '} `}></i>
+                        <i className={`fi fi-rr-caret-down flex items-center  transition-all duration-300 ease-in-out  text-[#2F1A00] ${isActive(link.to) || hoveredCategory === link.label ? '    rotate-180 duration-100' : ' '} `}></i>
                       )}
                     </Link>
                     {hoveredCategory === link.label && link.dropdown && (
-                      <div className="md:absolute left-0 top-full   w-full md:bg-white  border-[#3E8000]  transition-all duration-300 ease-in-out opacity-100 scale-y-100 origin-top  grid md:grid-cols-2 border p-3 z-10">
+                      <div className="lg:absolute left-0 top-full   w-full md:bg-white  border-[#2F1A00]  transition-all duration-300 ease-in-out opacity-100 scale-y-100 origin-top  grid lg:grid-cols-2 border p-3 z-10">
                         {link.dropdown.map((dropdownlink) => (
                           <Link
                             key={dropdownlink.to}
                             to={dropdownlink.to}
-                            className="block px-4 py-2 md:text-[#3e8000]  md:text-start text-center    underline underline-offset-2 text-[#3E8000]"
+                            className="block px-4 py-2 lg:text-[#3e8000]  md:text-start text-center    underline underline-offset-2 text-[#2F1A00]"
                             onClick={() => {
                               setHoveredCategory(null);
                               setMenuOpen(false);

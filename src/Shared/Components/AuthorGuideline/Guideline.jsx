@@ -1,96 +1,174 @@
-import React from 'react'
+import React, { useState } from 'react'
 
+const faqs = [
+    {
+        title: "Peer-Review Process",
+        content: (
+            <ul className="list-disc pl-5 space-y-2">
+                <li>All submissions undergo a double-blind peer review by experts in the field.</li>
+                <li>Reviewers evaluate manuscripts based on originality, relevance, technical quality, and clarity.</li>
+                <li>Authors may need to revise and resubmit based on reviewer feedback.</li>
+            </ul>
+        )
+    },
+    {
+        title: "Open-Access Policy",
+        content: (
+            <ul className="list-disc pl-5 space-y-2">
+                <li>IJSIOT is an open-access journal, ensuring that published articles are freely accessible to the global research community.</li>
+            </ul>
+        )
+    },
+    {
+        title: "Copyright and Licensing",
+        content: (
+            <ul className="list-disc pl-5 space-y-2">
+                <li>Authors retain copyright but must grant the journal a license to publish and distribute the work.</li>
+                <li>Articles are published under a Creative Commons License (CC BY or CC BY-NC).</li>
+            </ul>
+        )
+    },
+    {
+        title: "Ethical Considerations",
+        content: (
+            <ul className="list-disc pl-5 space-y-2">
+                <li>Authors must comply with ethical guidelines for human and animal research, data privacy, and conflict of interest disclosures.</li>
+                <li>The journal follows COPE (Committee on Publication Ethics) guidelines for handling misconduct cases.</li>
+            </ul>
+        )
+    }
+];
 function Guideline() {
+    const [activeIndex, setActiveIndex] = useState(0);
+
+    const toggle = (index) => {
+        setActiveIndex(activeIndex === index ? null : index);
+    };
+
     return (
         <>
             <section className="flex flex-col gap-5 max-w-[90rem] py-5  mx-auto md:px-5 px-3">
                 <div className="  relative">
                     <section className="flex flex-col gap-5">
                         <section className="flex flex-col gap-4">
-                            <div className='p-0.5 border border-[#3e8000]'>
-                                <h1 className="bg-primary text-white text-center merry shadow md:p-3 p-2 font-semibold  lg:text-2xl   text-lg ">
+                            <div className='  '>
+                                <h1 className="  underline underline-offset-4 decoration-[#2F1A00] text-[#2F1A00] text-center merry  font-semibold  lg:text-2xl   text-lg ">
                                     Author Guidelines
                                 </h1>
                             </div>
                             <p className="text-justify md:text-base text-sm">
-                                The International Journal of Advanced Trends in Robotics and Automation (IJATRA) welcomes high-quality, original research contributions in the fields of robotics, automation, artificial intelligence, and related disciplines. Authors must adhere to the following guidelines when preparing and submitting their manuscripts.                            </p>
+                                Authors submitting to the International Journal of Smart Internet of Things and Applications (IJSIOT) must ensure that their manuscripts align with the journal’s scope and adhere to the following guidelines:
+                            </p>
+                            <div className='flex flex-col gap-2  md:text-base text-sm'>
+                                <div className='flex items-center gap-2'>
+                                    <i className="fi fi-sr-play  text-xs  text-[#B49752] flex items-center"></i>
+                                    <p className=""> Manuscripts should be original, unpublished, and not under consideration elsewhere.
 
+                                    </p>
+                                </div>
+                                <div className='flex items-center gap-2'>
+                                    <i className="fi fi-sr-play  text-xs text-[#B49752] flex items-center"></i>
+                                    <p className=""> The paper must be written in clear, concise English and formatted according to the journal’s template.</p>
+                                </div>
+                                <div className='flex items-center gap-2'>
+
+                                    <p className="">The manuscript should include:</p>
+                                </div>
+                                <div className='flex items-center gap-2 pl-3'>
+                                    <i className="fi fi-sr-play  text-xs text-[#B49752]  flex items-center"></i>
+                                    <p className="">Title, Author(s) Details (Name, Affiliation, Email)</p>
+                                </div>
+                                <div className='flex items-center gap-2 pl-3'>
+                                    <i className="fi fi-sr-play  text-xs  text-[#B49752] flex items-center"></i>
+                                    <p className=""> Abstract (150-250 words)</p>
+                                </div>
+                                <div className='flex items-center gap-2 pl-3'>
+                                    <i className="fi fi-sr-play  text-xs text-[#B49752] flex items-center"></i>
+                                    <p className="">Keywords (3-6 relevant terms)</p>
+                                </div>
+                                <div className='flex items-center gap-2 pl-3'>
+                                    <i className="fi fi-sr-play  text-xs text-[#B49752] flex items-center"></i>
+                                    <p className="">Introduction, Methodology, Results, Discussion, Conclusion, References</p>
+                                </div>
+                                <div className='flex items-center gap-2'>
+                                    <i className="fi fi-sr-play  text-xs text-[#B49752] flex items-center"></i>
+                                    <p className="">Figures, tables, and equations should be properly labeled and numbered.</p>
+                                </div>
+                                <div className='flex items-center gap-2'>
+                                    <i className="fi fi-sr-play  text-xs text-[#B49752] flex items-center"></i>
+                                    <p className=""> References should follow a standard citation format (APA/IEEE) and be properly cited.</p>
+                                </div>
+                                <div className='flex items-center gap-2'>
+                                    <i className="fi fi-sr-play  text-xs text-[#B49752] flex items-center"></i>
+                                    <p className=""> Plagiarism must be below the acceptable threshold (typically greater than 15%), and authors must ensure proper citations for third-party content.
+
+                                    </p>
+                                </div>
+                                <div className='flex items-center gap-2'>
+                                    <i className="fi fi-sr-play  text-xs text-[#B49752]  flex items-center"></i>
+                                    <p className=""> Ethical considerations, including conflict of interest statements and funding disclosures, should be included where applicable.</p>
+                                </div>
+
+                            </div>
                         </section>
 
                         <section className="flex flex-col gap-4">
-                            <div className='p-0.5 border border-[#3e8000]'>
-                                <h1 className="bg-primary text-white text-center merry shadow md:p-3 p-2 font-semibold  lg:text-2xl   text-lg ">
+                            <div className='   '>
+                                <h1 className="underline underline-offset-4 decoration-[#2F1A00] text-[#2F1A00]  text-center merry   md:p-3 p-2 font-semibold  lg:text-2xl   text-lg ">
                                     Publishing Requirements
                                 </h1>
                             </div>
+                            <p className="text-justify md:text-base text-sm">
+                                To ensure a high standard of publication, IJSIOT follows a rigorous peer-review process and upholds the highest standards of ethical publishing:
+                            </p>
+                            <section className="">
+                                <div className="   ">
+                                    {faqs.map((faq, index) => (
+                                        <div key={index} className=" pb-3">
+                                            <button className="w-full text-left font-semibold flex  bg-[#B49752] px-2 text-white  justify-between py-2" onClick={() => toggle(index)}  >
+                                                {faq.title}
+                                                <span>{activeIndex === index ? "−" : "+"}</span>
+                                            </button>
+                                            {activeIndex === index && <p className=" md:text-base text-sm  mt-2">{faq.content}</p>}
+                                        </div>
+                                    ))}
+                                </div>
+                            </section>
 
-                            <div className='flex flex-col gap-2  md:text-base text-sm'>
-                                <div className='flex items-center gap-2'>
-                                    <i className="fi fi-rr-angle-double-small-right   flex items-center"></i>
-                                    <p className="">  Manuscripts must strictly follow the IJATRA template and adhere to proper formatting guidelines</p>
-                                </div>
-                                <div className='flex items-center gap-2'>
-                                    <i className="fi fi-rr-angle-double-small-right   flex items-center"></i>
-                                    <p className=""> Abstracts should be between 200–1000 characters, structured clearly with concise objectives, methodology, and findings.</p>
-                                </div>
-                                <div className='flex items-center gap-2'>
-                                    <i className="fi fi-rr-angle-double-small-right   flex items-center"></i>
-                                    <p className=""> Include 3 to 8 keywords to enhance indexing and searchability.</p>
-                                </div>
-                                <div className='flex items-center gap-2'>
-                                    <i className="fi fi-rr-angle-double-small-right   flex items-center"></i>
-                                    <p className=""> References must comply with the IEEE/APA citation style, ensuring consistency and accuracy.</p>
-                                </div>
-                                <div className='flex items-center gap-2'>
-                                    <i className="fi fi-rr-angle-double-small-right   flex items-center"></i>
-                                    <p className="">  Maintain proper grammar, spelling, and formal academic English throughout the manuscript.</p>
-                                </div>
-                                <div className='flex items-center gap-2'>
-                                    <i className="fi fi-rr-angle-double-small-right   flex items-center"></i>
-                                    <p className=""> All figures and tables must have descriptive captions and be appropriately referenced in the text.</p>
-                                </div>
-                                <div className='flex items-center gap-2'>
-                                    <i className="fi fi-rr-angle-double-small-right   flex items-center"></i>
-                                    <p className=""> Ethical approval statements must be provided where applicable, particularly for studies involving human or animal subjects.</p>
-                                </div>
 
-                            </div>
                         </section>
                         <section className="flex flex-col gap-4  md:text-base text-sm">
-                            <div className='p-0.5 border border-[#3e8000]'>
-                                <h1 className="bg-primary text-white text-center merry shadow md:p-3 p-2 font-semibold  lg:text-2xl   text-lg ">
+                            <div className='  '>
+                                <h1 className=" underline underline-offset-4 decoration-[#2F1A00] text-[#2F1A00] text-center merry    font-semibold  lg:text-2xl   text-lg ">
                                     Submission Process
                                 </h1>
                             </div>
                             <div className='flex flex-col gap-2'>
                                 <div className='flex items-center gap-2'>
-                                    <i className="fi fi-rr-angle-double-small-right   flex items-center"></i>
-                                    <p className=""><span className='text-[#3e8000] font-semibold'>Initial Manuscript Screening  </span> – The editorial team evaluates submissions for scope, quality, and adherence to guidelines.</p>
+                                    <i className="fi fi-sr-play  text-xs text-[#B49752]  flex items-center"></i>
+                                    <p className="">Authors must prepare their manuscripts following the journal’s formatting guidelines.</p>
                                 </div>
                                 <div className='flex items-center gap-2'>
-                                    <i className="fi fi-rr-angle-double-small-right   flex items-center"></i>
-                                    <p className=""><span className='text-[#3e8000] font-semibold'>Double-Blind Peer Review </span> – Manuscripts are reviewed by at least two independent experts to ensure scholarly integrity.</p>
+                                    <i className="fi fi-sr-play  text-xs text-[#B49752] flex items-center"></i>
+                                    <p className="">Submissions should be made through the IJSIOT online submission system.</p>
                                 </div>
                                 <div className='flex items-center gap-2'>
-                                    <i className="fi fi-rr-angle-double-small-right   flex items-center"></i>
-                                    <p className=""><span className='text-[#3e8000] font-semibold'>Author Revision Period</span> – Authors receive reviewer feedback and are provided with clear deadlines for revisions.</p>
+                                    <i className="fi fi-sr-play  text-xs text-[#B49752] flex items-center"></i>
+                                    <p className="">The manuscript will undergo an initial editorial check for compliance with journal standards.</p>
                                 </div>
                                 <div className='flex items-center gap-2'>
-                                    <i className="fi fi-rr-angle-double-small-right   flex items-center"></i>
-                                    <p className=""><span className='text-[#3e8000] font-semibold'>Final Editorial Decision</span> –  The editorial board makes the final decision based on reviewer recommendations.</p>
+                                    <i className="fi fi-sr-play  text-xs text-[#B49752] flex items-center"></i>
+                                    <p className="">If deemed suitable, the manuscript will be assigned for double-blind peer review.</p>
                                 </div>
                                 <div className='flex items-center gap-2'>
-                                    <i className="fi fi-rr-angle-double-small-right   flex items-center"></i>
-                                    <p className=""><span className='text-[#3e8000] font-semibold'>Publication & Licensing </span> – Articles are published under a Creative Commons license for maximum visibility.</p>
+                                    <i className="fi fi-sr-play  text-xs text-[#B49752] flex items-center"></i>
+                                    <p className="">Authors will receive reviewer feedback, and revisions may be required before final acceptance.</p>
                                 </div>
                                 <div className='flex items-center gap-2'>
-                                    <i className="fi fi-rr-angle-double-small-right   flex items-center"></i>
-                                    <p className=""><span className='text-[#3e8000] font-semibold'>DOI Assignment  </span> –  Each article is assigned a unique DOI for permanent identification and citation.</p>
+                                    <i className="fi fi-sr-play  text-xs text-[#B49752]  flex items-center"></i>
+                                    <p className="">Once accepted, the article will be formatted, proofread, and published online.</p>
                                 </div>
-                                <div className='flex items-center gap-2'>
-                                    <i className="fi fi-rr-angle-double-small-right   flex items-center"></i>
-                                    <p className=""><span className='text-[#3e8000] font-semibold'>Digital Archiving  </span> – Published research is digitally archived to ensure long-term availability and accessibility.</p>
-                                </div>
+
                             </div>
                         </section>
 

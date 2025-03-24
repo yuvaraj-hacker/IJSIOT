@@ -7,13 +7,38 @@ function Copyrights() {
                 <div className="  relative">
 
                     <section className="flex flex-col gap-5">
+                        <p className="text-justify md:text-base text-sm">
+                            The International Journal of Smart Internet of Things and Applications (IJSIOT) is committed to upholding ethical publishing standards and protecting the rights of authors, reviewers, and the journal. This page outlines the copyright policies, licensing terms, and author responsibilities.            </p>
                         <section className='grid   grid-cols-1   gap-2'>
                             <div className='flex flex-col gap-2'>
-                                <h2 className='text-[#3E8000] font-bold merry md:text-lg underline underline-offset-2'>Copyright Transfer:</h2>
+                                <h1 className="  text-center merry   font-semibold text-[#2F1A00]  underline underline-offset-4 decoration-[#2F1A00] lg:text-2xl   text-lg ">
+                                    Copyright Ownership & Agreement
+                                </h1>
+
+                            </div>
+
+                            <ol className="list-disc  pl-7  space-y-2  bg-[#B49752] p-2 text-white ">
+                                <li className="  ">
+                                    By submitting a manuscript, the author(s) agree to grant IJSIOT the right to publish, distribute, and archive the work in electronic and print formats.                                </li>
+                                <li className="  ">
+                                    The copyright remains with the author(s), but they must obtain consent from IJSIOT before republishing the work elsewhere.
+                                </li>
+                                <li className="  ">
+                                    Proper attribution must be given to IJSIOT when reusing content published in the journal.                                </li>
+
+                            </ol>
+
+                        </section>
+
+                        <section className='grid   grid-cols-1   gap-2'>
+                            <div className='flex flex-col gap-2'>
+                                <h1 className="  text-center merry   font-semibold text-[#2F1A00]  underline underline-offset-4 decoration-[#2F1A00] lg:text-2xl   text-lg ">
+                                    Copyright Transfer
+                                </h1>
                                 <div className='flex   gap-3'>
                                     <i className="fi fi-rr-angle-double-small-right     "></i>
 
-                                    <p className="text-justify  md:text-base text-sm">By signing this form, the author(s) transfer the copyright of the article to IJATRA, effective if and when the article is accepted for publication. The copyright transfer covers the exclusive right to reproduce and distribute the article, including reprints, translations, photographic reproductions, microform, electronic form, or any other reproductions of similar nature.</p>
+                                    <p className="text-justify  md:text-base text-sm">By signing this form, the author(s) transfer the copyright of the article to IJSIOT, effective if and when the article is accepted for publication. This copyright transfer grants IJSIOT the exclusive right to reproduce, distribute, and publish the article in various formats, including reprints, translations, digital copies, electronic archives, or any other forms of reproduction.</p>
 
                                 </div>
                             </div>
@@ -34,8 +59,8 @@ function Copyrights() {
 
                         </section>
                         <section className="flex flex-col gap-4">
-                            <div className='p-0.5 border border-[#3e8000]'>
-                                <h1 className="bg-primary text-white text-center merry shadow md:p-3 p-2 font-semibold  lg:text-2xl   text-lg ">
+                            <div className='  '>
+                                <h1 className="  text-center merry   font-semibold text-[#2F1A00]  underline underline-offset-4 decoration-[#2F1A00] lg:text-2xl   text-lg ">
                                     Declaration
                                 </h1>
                             </div>

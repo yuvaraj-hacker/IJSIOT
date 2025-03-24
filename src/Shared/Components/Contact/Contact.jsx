@@ -4,23 +4,23 @@ import React from 'react'
 function Contact() {
     return (
         <>
-            <section className="max-w-screen-xl mx-auto w-full px-5 2xl:px-0  py-5 ">
+            <section className="max-w-screen-xl mx-auto w-full px-5 2xl:px-0    py-5 ">
                 <div className="lg:flex md:flex  gap-8 ">
                     <div className="max-w-full w-full ">
                         <div className="lg:max-w-3xl max-w-xl w-full mx-auto  ">
                             <div className="  :bg-gray-900 lg:px-20   md:px-5  ">
-                                <div className="    mx-auto max-w-screen-md bg-white    border-[#3E8000] border md:p-6  p-3 ">
-                                    <div className='p-0.5 border border-[#3e8000]'>
-                                        <h1 className="bg-primary text-white text-center merry shadow md:p-3 p-2 font-semibold  lg:text-2xl   text-lg ">
+                                <div className="    mx-auto max-w-screen-md bg-white    border-[#2F1A00] border md:p-6  p-3 ">
+                                    <div className=' '>
+                                        <h1 className="  text-[#2F1A00] text-center merry   font-semibold  lg:text-2xl   text-lg ">
                                             Contact
-                                        </h1>
+                                            </h1>
                                     </div>
                                     <form className="w-full space-y-4" ngNativeValidate>
                                         <div>
                                             <label for="email" className="block mb-2 text-sm   text-gray-900   mt-4 :text-gray-300">
                                                 Name
                                             </label>
-                                            <input type="text" name="name" id="name" ngModel className="shadow-sm   border border-[#3e8000] text-gray-900 text-sm   focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5   mt-4        "
+                                            <input type="text" name="name" id="name" ngModel className="shadow-sm   border border-[#2F1A00] text-gray-900 text-sm   focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5   mt-4        "
                                                 placeholder="Enter Your Name" required
                                             />
                                         </div>
@@ -28,14 +28,14 @@ function Contact() {
                                             <label for="email" className="block mb-2 text-sm   text-gray-900   mt-4  :text-gray-300">
                                                 Email
                                             </label>
-                                            <input type="email" name="email" id="email" ngModel className="shadow-sm  border border-[#3e8000] text-gray-900 text-sm   focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5   mt-4 "
+                                            <input type="email" name="email" id="email" ngModel className="shadow-sm  border border-[#2F1A00] text-gray-900 text-sm   focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5   mt-4 "
                                                 placeholder="name@gmail.com" required />
                                         </div>
                                         <div>
                                             <label for="email" className="block mb-2 text-sm   text-gray-900   mt-4 :text-gray-300"  >
                                                 Contact Number
                                             </label>
-                                            <input type="text" name="number" id="number" ngModel className="shadow-sm  border border-[#3e8000] text-gray-900 text-sm   focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5   mt-4  "
+                                            <input type="text" name="number" id="number" ngModel className="shadow-sm  border border-[#2F1A00] text-gray-900 text-sm   focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5   mt-4  "
                                                 placeholder="Enter Your Mobile Number" required
                                             />
                                         </div>
@@ -45,7 +45,7 @@ function Contact() {
                                             </label>
                                             <textarea id="message" name="message" ngModel
                                                 rows="4"
-                                                className="block p-2.5 w-full text-sm text-gray-900    shadow-sm border border-[#3e8000] focus:ring-primary-500 focus:border-primary-500   mt-4 "
+                                                className="block p-2.5 w-full text-sm text-gray-900    shadow-sm border border-[#2F1A00] focus:ring-primary-500 focus:border-primary-500   mt-4 "
                                                 placeholder="Leave a Message..."
                                             ></textarea>
                                         </div>
@@ -60,7 +60,7 @@ function Contact() {
                                     {" "}
                                     For any queries contact Email :{' '}
                                     <a href="mailto:editor@AJARCSE.com" className="text-blue-700 " >
-                                        editor@ijatra.com
+                                        editor@ijsiot.com
                                     </a>
                                 </h3>
                             </div>

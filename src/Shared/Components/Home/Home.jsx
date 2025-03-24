@@ -8,195 +8,104 @@ function Home() {
       <section className=" flex flex-col gap-5  max-w-[90rem] py-5  mx-auto md:px-5 px-3">
         <div className="  relative">
           <section className="flex flex-col gap-5">
-            <section className="flex justify-between flex-wrap md:flex-nowrap gap-5">
-              <div className="flex flex-col justify-evenly md:gap-0 gap-3">
+            <section className="grid lg:grid-cols-3 gap-5">
+              <div className="flex flex-col justify-evenly  lg:col-span-2 md:gap-0 gap-3">
                 <p className="text-justify md:text-base text-sm">
-                  <strong className="text-[#3E8000]">
-                    The International Journal of Advanced Trends in Robotics and
-                    Automation (IJATRA)
+                  <strong className="text-[#2F1A00] text-xl underline underline-offset-4 decoration-[#2F1A00]  ">
+                    The International Journal of Smart Internet of Things and Applications (IJSIOT)
                   </strong>{" "}
-                  is a peer-reviewed, open-access journal dedicated to
-                  publishing high-quality research and advancements in robotics,
-                  automation, artificial intelligence, and intelligent systems.
-                  It provides a platform for researchers, academicians, and
-                  industry professionals to share innovative ideas,
-                  methodologies, and cutting-edge developments that drive
-                  automation across various industries, including manufacturing,
-                  healthcare, transportation, agriculture, space exploration,
-                  and smart cities. Committed to fostering interdisciplinary
-                  research and technological advancements, IJATRA welcomes
-                  original research articles, review papers, case studies, and
-                  technical reports that contribute to the continuous evolution
-                  of robotics and automation technologies.
+                  is a scholarly journal dedicated to publishing high-quality research articles, reviews, and case studies in the field of the Internet of Things (IoT) and its applications. The journal aims to provide a platform for researchers, academics, and industry professionals to share innovative ideas, cutting-edge technologies, and advancements in smart IoT solutions.
                 </p>
-                <a href="https://ijatra.com/Ijatra/index.php/ijatra/about/submissions" target="_blank" rel="noopener noreferrer" className="w-fit" >
-                  <button className="md:p-3 p-2 border   border-[#3E8000] text-[#3E8000] hover:bg-[#3E8000] hover:text-white duration-300 cursor-pointer w-[170px]">
+                {/* <a href="https://ijatra.com/Ijatra/index.php/ijatra/about/submissions" target="_blank" rel="noopener noreferrer" className="w-fit" >
+                  <button className="md:p-3 p-2 border   border-[#2F1A00] text-[#2F1A00] hover:bg-[#2F1A00] rounded-full hover:text-white duration-300 cursor-pointer w-[170px]">
                     Submit Your Paper
                   </button>
-                </a>
+                </a> */}
               </div>
-              <img className="mx-auto  border p-0.5 border-[#3e8000] w-52 " src="/assets/Images/Image-hero.jpeg" alt="" />
+              <img className="mx-auto    " src="/assets/Images/HERO (2).jpg" alt="" />
             </section>
             <section className="flex flex-col gap-4">
-              <div className='p-0.5 border border-[#3e8000]'>
-                <h1 className="bg-primary text-white text-center merry shadow md:p-3 p-2 font-semibold  lg:text-2xl   text-lg ">
-                  About
+              <div className='p-0.5  '>
+                <h1 className=" text-[#2F1A00]  underline underline-offset-4 decoration-[#2F1A00]     text-center merry   md:p-3 p-2 font-bold  lg:text-2xl   text-lg ">
+                  About Our Publication
                 </h1>
               </div>
               <p className="text-justify md:text-base text-sm">
-                The International Journal of Advanced Trends in Robotics and
-                Automation (IJATRA) is a peer-reviewed, open-access journal
-                focused on cutting-edge research in robotics, automation, and
-                intelligent systems. We publish innovative studies in AI-driven
-                robotics, industrial automation, human-robot interaction, and
-                more, fostering collaboration between academia and industry. IJATRA aims to foster collaboration between researchers, academicians, and industry professionals by providing a platform for sharing innovative ideas, groundbreaking research, and technological advancements. We welcome original research articles, review papers, and case studies that contribute to the evolving landscape of robotics and automation.
-              </p>
+                The International Journal of Smart Internet of Things and Applications (IJSIOT) is a peer-reviewed, open-access journal committed to advancing cutting-edge research, technological innovations, and real-world applications in the field of the Internet of Things (IoT). The journal serves as a global platform for researchers, academicians, industry professionals, and technology enthusiasts to exchange knowledge, novel ideas, and emerging trends in smart IoT systems.
 
-              <Link to='/about' className="w-fit">
-                <button className="md:p-3 p-2 border w-[170px]  border-[#3E8000] text-[#3E8000] hover:bg-[#3E8000] hover:text-white duration-300 cursor-pointer">
+                IJSIOT aims to bridge the gap between theory and practice, fostering interdisciplinary research that integrates IoT with Artificial Intelligence (AI), Machine Learning (ML), Big Data, Cloud Computing, Edge Computing, Blockchain, Cybersecurity, and 5G technologies.                </p>
+
+              <Link to='/about' className="w-fit ml-auto">
+                <button className="md:p-3 p-2 border w-[170px] text-white bg-[#B49752]  gap-2 flex justify-center items-center     hover:bg-[#2F1A00] hover:text-white duration-300 cursor-pointer">
                   Read More
+                  <i className="fi fi-sr-play text-xs text-white  flex items-center"></i>
                 </button>
               </Link>
 
             </section>
             <section className="flex flex-col gap-4  ">
 
-              <div className='p-0.5 border border-[#3e8000]'>
-                <h1 className="bg-primary text-white text-center merry shadow md:p-3 p-2 font-semibold  lg:text-2xl   text-lg ">
+              <div className=''>
+                <h1 className="underline underline-offset-4 decoration-[#2F1A00] text-[#2F1A00]   text-center merry   md:p-3 p-2 font-bold  lg:text-2xl   text-lg ">
                   Journal  overview
                 </h1>
               </div>
 
-              <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-5 grid-cols-1  ">
-                <div className=" border border-[#3E8000]   flex flex-col justify-between ">
-                  <div className=" p-4 flex flex-col gap-2">
-                    <h2 className="text-[#3E8000] font-bold merry md:text-lg underline underline-offset-2">Open Access</h2>
+              <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-5 grid-cols-1  h-full  ">
+                <div className="   flex flex-col  h-full  ">
+                  <div className=" p-4 flex flex-col gap-2 bg-[#B49752]  h-full  ">
+                    <div className="flex gap-3 items-center underline underline-offset-2 decoration-white">
+                      <h2 className="text-white font-bold merry md:text-lg ">Open Access</h2>
+                      <FaUnlockAlt className="text-white " />
+                    </div>
                     <div className="flex gap-4  ">
-                      <i className="fi fi-rr-angle-double-small-right  "></i>
-                      <p className=" md:text-base text-sm">All publications are fully open access, ensuring that readers have unrestricted and free access to all published articles.</p>
+                      <i className="fi fi-sr-play text-xs text-white "></i>
+                      <p className=" md:text-base text-sm text-white text-justify">All publications are fully open access, ensuring that readers have unrestricted and free access to all published articles.</p>
                     </div>
                   </div>
-                  <div className="bg-[#719465] p-2 flex justify-between items-center">
-                    <div className="md:p-4 p-3 rounded-full bg-white w-fit relative bottom-7 border border-[#3E8000] text-[#3E8000]">
-                      <FaUnlockAlt />
+                </div>
+                <div className="     flex flex-col justify-between  h-full   ">
+                  <div className=" p-4 flex flex-col gap-2 bg-[#B49752] h-full ">
+                    <div className="flex gap-3 items-center underline underline-offset-2 decoration-white">
+                      <h2 className="text-white font-bold merry md:text-lg underline underline-offset-2">Peer-Review</h2>
+                      <FaUserCheck className="text-white" />
                     </div>
-                    <div>
-                      <Link to="/about">
-                        <i className="fi fi-sr-arrow-circle-right hover:scale-105 duration-300 text-white flex items-center md:text-4xl text-xl"></i>
-                      </Link>
+                    <div className="flex gap-4  ">
+                      <i className="fi fi-sr-play text-xs text-white "></i>
+                      <p className=" md:text-base text-sm text-white text-justify">IJATRA is a peer-reviewed journal. All submitted manuscripts undergo a rigorous blind peer-review process to ensure the highest standards of quality and academic integrity</p>
                     </div>
                   </div>
 
                 </div>
-                <div className=" border border-[#3E8000]   flex flex-col justify-between  ">
-                  <div className=" p-4 flex flex-col gap-2">
-                    <h2 className="text-[#3E8000] font-bold merry md:text-lg underline underline-offset-2">Peer-Review</h2>
-                    <div className="flex gap-4  ">
-                      <i className="fi fi-rr-angle-double-small-right  "></i>
-                      <p className=" md:text-base text-sm">IJATRA is a peer-reviewed journal. All submitted manuscripts undergo a rigorous blind peer-review process to ensure the highest standards of quality and academic integrity</p>
-                    </div>
-                  </div>
-                  <div className="bg-[#719465] p-2 flex justify-between items-center">
-                    <div className="md:p-4 p-3 rounded-full bg-white w-fit relative bottom-7 border border-[#3E8000] text-[#3E8000]">
-                      <FaUserCheck />
-                    </div>
-                    <div>
 
-                      <Link to="/Peer-Review-Process">
-                        <i className="fi fi-sr-arrow-circle-right hover:scale-105 duration-300 text-white flex items-center md:text-4xl text-xl"></i>
-                      </Link>
+                <div className="   flex flex-col justify-between h-full ">
+                  <div className=" p-4 flex flex-col gap-2 bg-[#B49752] h-full">
+                    <div className="flex gap-3 items-center underline underline-offset-2 decoration-white">
+                      <h2 className="  font-bold merry md:text-lg underline underline-offset-2 text-white">Indexing</h2>
+                      <FaDatabase className="text-white" />
                     </div>
-                  </div>
-                </div>
-
-                <div className=" border border-[#3E8000]  flex flex-col justify-between ">
-                  <div className=" p-4 flex flex-col gap-2">
-                    <h2 className="text-[#3E8000] font-bold merry md:text-lg underline underline-offset-2">Indexing</h2>
                     <div className="flex gap-4  ">
-                      <i className="fi fi-rr-angle-double-small-right  "></i>
-                      <p className=" md:text-base text-sm">All published articles are designed for maximum visibility on search engines, adhering to advanced SEO standards to ensure widespread discoverability and accessibility.</p>
+                      <i className="fi fi-sr-play text-xs text-white "></i>
+                      <p className=" md:text-base text-sm text-white text-justify">All published articles are designed for maximum visibility on search engines, adhering to advanced SEO standards to ensure widespread discoverability and accessibility.</p>
                     </div>
                   </div>
-                  <div className="bg-[#719465] p-2 flex justify-between items-center">
-                    <div className="md:p-4 p-3 rounded-full bg-white w-fit relative bottom-7 border border-[#3E8000] text-[#3E8000]">
-                      <FaDatabase />
-                    </div>
-                    <div>
-                      <Link to="/abstracting-and-indexing">
-                        <i className="fi fi-sr-arrow-circle-right text-white hover:scale-105 duration-300 flex items-center md:text-4xl text-xl"></i>
-                      </Link>
-                    </div>
-                  </div>
+
 
                 </div>
               </div>
             </section>
             <section className="flex flex-col gap-4">
-              <div className='p-0.5 border border-[#3e8000]'>
-                <h1 className="bg-primary text-white text-center merry shadow md:p-3 p-2 font-semibold  lg:text-2xl   text-lg ">
+              <div className='p-0.5  '>
+                <h1 className="underline underline-offset-4 decoration-[#2F1A00] text-[#2F1A00]    text-center merry   md:p-3 p-2 font-bold  lg:text-2xl   text-lg ">
                   The Journal covers following areas :
                 </h1>
               </div>
               <div className="grid grid-cols-1 lg:grid-cols-3  md:grid-cols-3">
                 {[
-                  "Humanoid Robots",
-                  "Swarm Robotics",
-                  "Soft Robotics",
-                  "Autonomous Navigation",
-                  "Cognitive Robotics",
-                  "AI in Robotics",
-                  "Human-Robot Collaboration",
-                  "Multi-Robot Systems",
-                  "Robot Perception & Vision",
-                  "Brain-Machine Interfaces",
-                  "Bio-Inspired Robotics",
-                  "Self-Healing Robots",
-                  "Exoskeletons",
-                  "Telerobotics",
-                  "Autonomous Drones",
-                  "Medical & Surgical Robots",
-                  "Agricultural Robotics",
-                  "Underwater Robots",
-                  "Smart Manufacturing",
-                  "Industry 4.0 Technologies",
-                  "Industrial Internet of Things (IIoT)",
-                  "Automated Quality Control",
-                  "Digital Twins in Automation",
-                  "Collaborative Robotics in Manufacturing",
-                  "AI in Predictive Maintenance",
-                  "Real-Time Process Control",
-                  "Autonomous Warehouse Systems",
-                  "Cyber-Physical Systems",
-                  "Space Robotics",
-                  "Bipedal & Quadrupedal Locomotion",
-                  "AI-Driven Robotics Simulation",
-                  "Machine Learning in Robotics",
-                  "Digital Human Modeling",
-                  "Gesture & Voice Recognition",
-                  "Multi-Sensor Data Fusion",
-                  "Edge Computing for Robots",
-                  "Advanced Control Algorithms",
-                  "Sensor Fusion Technologies",
-                  "Feedback Control in Robotics",
-                  "PID & Adaptive Controllers",
-                  "Real-Time Motion Planning",
-                  "Embedded Systems for Robotics",
-                  "Actuator and Motor Control",
-                  "Wireless Sensor Networks",
-                  "Mechatronic System Design",
-                  "Signal Processing in Robotics",
-                  "Neuromorphic Computing",
-                  "Social & Emotional AI Robots",
-                  "Disaster Response Robotics",
-                  "Ethics & Security in Robotics",
-                  "Wearable Robotics",
-                  "Human-Centered AI",
-                  "Reinforcement Learning in Robots",
-                  "AI in Supply Chains"
-
+                  "Smart IoT Systems", "Edge Computing", "IoT Security", "Wireless Sensor Networks", "AI in IoT", "Industrial IoT", "IoT in Healthcare", "Smart Homes", "IoT Protocols", "Blockchain for IoT", "IoT Data Analytics", "Cloud Computing for IoT", "IoT-based Automation", "5G and IoT", "Smart Cities", "IoT Energy Management", "IoT for Agriculture", "Cyber-Physical Systems", "IoT Privacy", "Machine Learning for IoT", "IoT Device Management", "IoT-enabled Smart Grid", "IoT in Supply Chain", "IoT in Transportation", "IoT in Retail", "IoT for Environmental Monitoring", "IoT-based Predictive Maintenance", "IoT for Disaster Management", "IoT and Digital Twins", "IoT in Smart Manufacturing", "IoT for Water Management", "IoT in Smart Wearables", "IoT in Home Automation", "IoT in Autonomous Vehicles", "IoT for Smart Healthcare Devices", "IoT and Big Data", "IoT-based Remote Sensing", "IoT in E-Governance", "IoT for Asset Tracking", "IoT for Precision Agriculture", "IoT-based Smart Lighting", "IoT-based Smart Surveillance", "IoT-enabled Smart Parking", "IoT for Waste Management", "IoT in Smart Education", "IoT for Fire Detection", "IoT and Robotics", "IoT in Hospitality", "IoT-based Smart Contracts", "IoT in Military Applications", "IoT for Personalized Healthcare", "IoT and Quantum Computing", "IoT for Smart Logistics", "IoT in Construction", "IoT in Oil and Gas Industry", "IoT-based Traffic Management", "IoT for Smart Airports", "IoT in Maritime Industry", "IoT and Human-Computer Interaction", "IoT in Renewable Energy Systems", "IoT for Fleet Management", "IoT in Sports Analytics", "IoT for Smart Hospitals", "IoT in Connected Vehicles", "IoT for Smart Farming", "IoT in Supply Chain Optimization", "IoT in Digital Health Records", "IoT-based Smart Metering", "IoT for Remote Patient Monitoring", "IoT for Smart Offices", "IoT and Fog Computing", "IoT in Wildlife Conservation"
                 ].map((topics, index) => (
                   <div key={index} className="flex items-center gap-2 mb-1">
-                    <i className="fi fi-rr-angle-double-small-right  flex items-center "></i>
+                    <i className="fi fi-sr-play text-xs  text-[#B49752] flex items-center "></i>
                     <h1 className="md:text-base text-sm">{topics}</h1>
                   </div>
                 ))}
@@ -205,16 +114,16 @@ function Home() {
           </section>
         </div>
         <section className=" ">
-          <h1 className="bg-[#3E8000] h-[1px] w-full  "></h1>
+          <h1 className="bg-[#B49752] h-[1px] w-full  "></h1>
         </section>
-        <section className="text-center flex flex-col gap-2 xl:w-1/2 mx-auto">
-          <p className="  md:text-base text-sm text-justify">
+        <section className="text-center flex flex-col gap-2   mx-auto  ">
+          <p className="  md:text-base text-sm text-center">
             We publish original research articles, review articles and technical notes. The journal reviews papers within two weeks of submission and publishes accepted articles on the internet immediately upon receiving the final versions.
-            <span className="text-[#3E8000] font-bold">   Our fast reviewing process is our strength. </span>
+            <span className="text-[#2F1A00] font-bold">   Our fast reviewing process is our strength. </span>
           </p>
           <div className="flex items-center gap-4">
             <i className="fi fi-tr-calendar text-white "></i>
-            <h1 className="bg-primary text-white py-2 font-semibold md:text-base text-sm   text-center mx-auto p-3">
+            <h1 className="bg-[#B49752] text-white py-2 font-semibold md:text-base text-sm  w-full  text-center mx-auto p-3">
               Launch of Next Issue: 28
               <sup>th</sup> Oct 2025
             </h1>
@@ -223,7 +132,7 @@ function Home() {
           <h1 className="  font-semibold  md:text-base text-sm">
             Editor-in-chief
           </h1>
-          <h1 className="  font-semibold md:text-base text-sm">IJATRA</h1>
+          <h1 className="  font-semibold md:text-base text-sm">IJSIOT</h1>
         </section>
       </section>
     </>
