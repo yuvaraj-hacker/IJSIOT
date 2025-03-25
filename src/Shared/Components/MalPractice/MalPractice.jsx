@@ -6,9 +6,9 @@ function MalPractice() {
             <section className="flex flex-col gap-5 max-w-[90rem]   mx-auto md:px-5 px-3">
                 <div className="  relative">
                     <section className="flex flex-col gap-5">
-                        <section className="flex flex-col gap-4">
+                        <section className="flex flex-col md:gap-4 gap-3">
                             <div className=' '>
-                                <h1 className="  text-[#2F1A00] text-center merry   font-semibold  lg:text-2xl   text-lg ">
+                                <h1 className="  text-[#2F1A00] text-center merry    font-bold   lg:text-2xl   text-lg ">
                                     Malpractice
                                 </h1>
                             </div>

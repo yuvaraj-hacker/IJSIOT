@@ -6,8 +6,8 @@ function Copyrights() {
             <section className="flex flex-col gap-5 max-w-[90rem]    mx-auto md:px-5 px-3">
                 <div className="  relative">
 
-                    <section className="flex flex-col gap-5">
-                        <section className='grid   grid-cols-1   gap-4'>
+                    <section className="flex flex-col md:gap-7 gap-5">
+                        <section className='grid   grid-cols-1   md:gap-4 gap-3'>
                             <div className='  '>
                                 <h1 className="  underline underline-offset-4 decoration-[#2F1A00] text-[#2F1A00] text-center merry  font-semibold  lg:text-2xl   text-lg ">
                                     Copyrights
@@ -17,7 +17,7 @@ function Copyrights() {
                                 The International Journal of Smart Internet of Things and Applications (IJSIOT) is committed to upholding ethical publishing standards and protecting the rights of authors, reviewers, and the journal. This page outlines the copyright policies, licensing terms, and author responsibilities.            </p>
                         </section>
 
-                        <section className='grid   grid-cols-1   gap-4'>
+                        <section className='grid   grid-cols-1  md:gap-4 gap-3'>
                             <div className='flex flex-col gap-4'>
                                 <h1 className="  text-center merry   font-semibold text-[#2F1A00]  underline underline-offset-4 decoration-[#2F1A00] lg:text-2xl   text-lg ">
                                     Copyright Ownership & Agreement
@@ -39,7 +39,7 @@ function Copyrights() {
                         </section>
 
                         <section className='grid   grid-cols-1   gap-2'>
-                            <div className='flex flex-col gap-4'>
+                            <div className='flex flex-col md:gap-4 gap-3'>
                                 <h1 className="  text-center merry   font-semibold text-[#2F1A00]  underline underline-offset-4 decoration-[#2F1A00] lg:text-2xl   text-lg ">
                                     Copyright Transfer
                                 </h1>
@@ -64,7 +64,7 @@ function Copyrights() {
                             </ol>
 
                         </section>
-                        <section className="flex flex-col gap-4">
+                        <section className="flex flex-col md:gap-4 gap-3">
                             <div className='  '>
                                 <h1 className="  text-center merry   font-semibold text-[#2F1A00]  underline underline-offset-4 decoration-[#2F1A00] lg:text-2xl   text-lg ">
                                     Declaration

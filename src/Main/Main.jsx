@@ -181,14 +181,14 @@ const Main = () => {
              </ul>
           </nav>
         </aside> */}
-        <section className={`md:bg-white   lg:block hidden w-full  sticky top-[90px]    col-span-2 py-5 md:px-5 px-3 self-start    overflow-y-auto  `}>
+        <section className={`md:bg-white   lg:block hidden w-full  sticky top-[90px] overflow-y-auto max-h-[calc(100vh-90px)]  custom-scrollbar col-span-2 md:py-7 py-5 md:px-5 px-3 self-start       `}>
           <header className="  bg-white ">
             <div className="  ">
               <nav ref={dropdownRef}>
                 <div className="flex flex-col gap-2" >
                   {navLinks.map((link) => (
                     <div
-                        key={link.to}
+                      key={link.to}
                       className="   "
                     // onMouseEnter={() => handleMouseEnter(link.label)}
                     // onMouseLeave={handleMouseLeave}
@@ -231,7 +231,7 @@ const Main = () => {
         {/* <section className="w-0.5 bg-[#B49752]">
 
         </section> */}
-        <div className="py-5 lg:col-span-8 col-span-10">
+        <div className="md:py-7 py-5 lg:col-span-8 col-span-10">
           <div className=" border-l-[#B49752] md:border-l ">
             <Outlet />
           </div>

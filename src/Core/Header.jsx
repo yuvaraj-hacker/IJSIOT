@@ -180,15 +180,12 @@ const Header = () => {
         )}
       </div> */}
       <div className="lg:hidden block flex justify-center   bg-[#B49752] mx-auto text-center ">
-        <button className="md:p-3 p-2  text-center text-white bg-[#B49752] flex items-center justify-center gap-3  duration-300 cursor-pointer  ">
-          Submit Your Manuscript
-          <i className="fi fi-sr-play text-xs text-white  flex items-center"></i>
-        </button>
+
       </div>
       <section className={`md:bg-white bg-white border-[#2F1A00] border fixed top-0  right-0 h-full w-64  transform transition-transform duration-300 ease-in-out ${menuOpen ? "translate-x-0" : "translate-x-full"}`}>
         <div className="text-black text-left p-4 cursor-pointer">
           {/* <p onClick={() => setMenuOpen(false)} className=" text-black">close</p> */}
-          <i onClick={() => setMenuOpen(false)} className="fi fi-rs-circle-xmark text-xl"></i>
+          <i onClick={() => setMenuOpen(false)} className="fi fi-sr-left text-xl text-[#2F1A00]"></i>
         </div>
         <header className="max-w-[90rem] mx-auto px-5 bg-white ">
           <div className="flex justify-center lg:justify-between  items-center py-1">

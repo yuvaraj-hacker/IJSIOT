@@ -7,7 +7,7 @@ function Home() {
     <>
       <section className=" flex flex-col gap-5  max-w-[90rem]  mx-auto md:px-5 px-3">
         <div className="  relative">
-          <section className="flex flex-col gap-7">
+          <section className="flex flex-col md:gap-7 gap-5">
             <section className="grid lg:grid-cols-3 gap-3">
               <div className="flex flex-col md:justify-evenly  lg:col-span-2 md:gap-0 gap-3 md:order-1 order-2 ">
                 <p className="text-justify md:text-base text-sm">
@@ -23,14 +23,18 @@ function Home() {
                 </a> */}
               </div>
               <div className="relative w-full md:order-2 order-1">
-                <img className="mx-auto w-full" src="/assets/Images/iot.jpg" alt="" />
-                <div className="absolute inset-0 bg-[#2F1A00] opacity-40"></div>
+                <img className="mx-auto w-full" src="/assets/Images/intrernet of things.jpg" alt="" />
+                <div className="absolute inset-0 bg-[#2F1A00] opacity-20"></div>
               </div>
-
+              <button className="md:p-3 p-2 md:hidden  w-fit mx-auto md:text-base  text-center  order-3  text-white bg-[#B49752] flex items-center justify-center gap-3  duration-300 cursor-pointer  ">
+                Submit Your Manuscript
+                <i className="fi fi-sr-play text-xs text-white  flex items-center"></i>
+              </button>
             </section>
-            <section className="flex flex-col gap-4">
-              <div className='p-0.5  '>
-                <h1 className=" text-[#2F1A00]  underline underline-offset-4 decoration-[#2F1A00]     text-center merry  font-bold  lg:text-2xl   text-lg ">
+
+            <section className="flex flex-col md:gap-4 gap-3">
+              <div className='  '>
+                 <h1 className=" text-[#2F1A00]  underline underline-offset-4 decoration-[#2F1A00]     text-center merry  font-bold  lg:text-2xl   text-lg ">
                   About Our Publication
                 </h1>
               </div>
@@ -47,7 +51,7 @@ function Home() {
               </Link>
 
             </section>
-            <section className="flex flex-col gap-4  ">
+            <section className="flex flex-col md:gap-4 gap-3 ">
 
               <div className=''>
                 <h1 className="underline underline-offset-4 decoration-[#2F1A00] text-[#2F1A00]   text-center merry    font-bold  lg:text-2xl   text-lg ">
@@ -64,7 +68,7 @@ function Home() {
                     </div>
                     <div className="flex gap-4  ">
                       <i className="fi fi-sr-play text-xs text-white mt-1"></i>
-                      <p className=" md:text-base text-sm text-white text-justify">All publications are fully open access, ensuring that readers have unrestricted and free access to all published articles.</p>
+                      <p className=" md:text-base text-sm text-white text-justify">All publications are fully open access, ensuring that readers have unrestricted and free access to all published articles. This allows for greater knowledge sharing and global collaboration, enhancing the impact of research across various fields.</p>
                     </div>
                   </div>
                 </div>
@@ -96,8 +100,8 @@ function Home() {
                 </div>
               </div>
             </section>
-            <section className="flex flex-col gap-4">
-              <div className='p-0.5  '>
+            <section className="flex flex-col md:gap-4 gap-3  ">
+              <div className=' '>
                 <h1 className="underline underline-offset-4 decoration-[#2F1A00] text-[#2F1A00]    text-center merry  font-bold  lg:text-2xl   text-lg ">
                   The Journal covers following areas
                 </h1>

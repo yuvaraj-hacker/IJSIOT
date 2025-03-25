@@ -49,8 +49,8 @@ function Guideline() {
         <>
             <section className="flex flex-col gap-5 max-w-[90rem]    mx-auto md:px-5 px-3">
                 <div className="  relative">
-                    <section className="flex flex-col gap-5">
-                        <section className="flex flex-col gap-4">
+                    <section className="flex flex-col md:gap-7 gap-5">
+                        <section className="flex flex-col md:gap-4 gap-3">
                             <div className='  '>
                                 <h1 className="  underline underline-offset-4 decoration-[#2F1A00] text-[#2F1A00] text-center merry  font-semibold  lg:text-2xl   text-lg ">
                                     Author Guidelines
@@ -112,7 +112,7 @@ function Guideline() {
                             </div>
                         </section>
 
-                        <section className="flex flex-col gap-4">
+                        <section className="flex flex-col md:gap-4 gap-3">
                             <div className='   '>
                                 <h1 className="underline underline-offset-4 decoration-[#2F1A00] text-[#2F1A00]  text-center merry    font-semibold  lg:text-2xl   text-lg ">
                                     Publishing Requirements
@@ -136,7 +136,7 @@ function Guideline() {
                             </section>
 
                         </section>
-                        <section className="flex flex-col gap-4  md:text-base text-sm">
+                        <section className="flex flex-col md:gap-4 gap-3  md:text-base text-sm">
                             <div className='  '>
                                 <h1 className=" underline underline-offset-4 decoration-[#2F1A00] text-[#2F1A00] text-center merry    font-semibold  lg:text-2xl   text-lg ">
                                     Submission Process

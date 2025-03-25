@@ -5,9 +5,9 @@ function About() {
     <>
       <section className="flex flex-col gap-5 max-w-[90rem]  mx-auto md:px-5 px-3">
         <div className="  relative">
-          <section className="flex flex-col gap-5">
+          <section className="flex flex-col md:gap-7 gap-5">
             <section className="flex justify-between flex-wrap md:flex-nowrap gap-5">
-              <div className="flex flex-col justify-evenly gap-4">
+              <div className="flex flex-col justify-evenly md:gap-4 gap-3">
                 <div className='  '>
                   <h1 className="   text-center merry underline underline-offset-4 decoration-[#2F1A00] text-[#2F1A00]    font-bold  lg:text-2xl   text-lg ">
                     About Us
@@ -46,7 +46,7 @@ function About() {
                 </div>
               </div>
             </section>
-            <section className="flex flex-col gap-4">
+            <section className="flex flex-col md:gap-4 gap-3">
               <div className='  '>
                 <h1 className="   text-center merry   font-bold  lg:text-2xl   underline underline-offset-4 decoration-[#2F1A00] text-[#2F1A00]  text-lg ">
                   Scope of the International Journal of Smart Internet of Things and Applications (IJSIOT)
@@ -85,7 +85,7 @@ function About() {
 
               </div>
             </section>
-            <section className="flex flex-col gap-4">
+            <section className="flex flex-col md:gap-4 gap-3">
               <div className='   '>
                 <h1 className="  underline underline-offset-4 decoration-[#2F1A00] text-[#2F1A00] text-center merry  font-bold  lg:text-2xl   text-lg ">
                   Mission of the International Journal of Smart Internet of Things and Applications (IJSIOT)

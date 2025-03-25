@@ -5,9 +5,9 @@ function AimandScope() {
         <>
             <section className="flex flex-col gap-5 max-w-[90rem]    mx-auto md:px-5 px-3">
                 <div className="  relative">
-                    <section className="flex flex-col gap-5">
-                        <section className="flex flex-col gap-4">
-                            <div className='p-0.5  ]'>
+                    <section className="flex flex-col md:gap-7 gap-5">
+                        <section className="flex flex-col md:gap-4 gap-3">
+                            <div className='  '>
                                 <h1 className="   text-center merry underline underline-offset-4 decoration-[#2F1A00] text-[#2F1A00] font-semibold  lg:text-2xl   text-lg ">
                                     Aim and Scope
                                 </h1>
@@ -47,7 +47,7 @@ function AimandScope() {
                             </div>
                         </section>
 
-                        <section className="flex flex-col gap-4">
+                        <section className="flex flex-col md:gap-4 gap-3">
                             <div className='   '>
                                 <h1 className="  underline underline-offset-4 decoration-[#2F1A00] text-[#2F1A00] text-center merry   font-semibold  lg:text-2xl   text-lg ">
                                     Aim
@@ -58,7 +58,7 @@ function AimandScope() {
                             </p>
 
                         </section>
-                        <section className="flex flex-col gap-4">
+                        <section className="flex flex-col md:gap-4 gap-3    ">
 
                             <div className='   '>
                                 <h1 className="  underline underline-offset-4 decoration-[#2F1A00] text-[#2F1A00] text-center merry   font-semibold  lg:text-2xl   text-lg ">
