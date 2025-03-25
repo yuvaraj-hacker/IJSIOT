@@ -137,11 +137,17 @@ const Header = () => {
             <div className="lg:block hidden xl:text-2xl  text-xl    merry">
               International Journal of Smart Internet of Things and Applications
             </div>
+
+
+
             <div className="lg:block hidden">
-              <button className="md:p-3 p-2    text-white   flex gap-2   xl:text-base text-xs    bg-[#B49752]   duration-300 cursor-pointer  ">
-                Submit Your Manuscript
-                <i className="fi fi-sr-play text-xs text-white  flex items-center"></i>
-              </button>
+              <a href="https://ijsiot.com/Ijsiot/index.php/ijsiot/about/submissions" target="_blank">
+
+                <button className="md:p-3 p-2    text-white   flex gap-2   xl:text-base text-xs    bg-[#B49752]   duration-300 cursor-pointer  ">
+                  Submit Your Manuscript
+                  <i className="fi fi-sr-play text-xs text-white  flex items-center"></i>
+                </button>
+              </a>
             </div>
             <div className="lg:hidden block">
               <Hamburger toggled={menuOpen} toggle={setMenuOpen} />

@@ -43,7 +43,7 @@ function Approuter() {
             <Route path="/contact" element={<ContactPage />} />
             <Route path="/copyrights" element={<CopyrightsPage />} />
           </Route>
-        </Routes> 
+        </Routes>
       </BrowserRouter>
     </>
   );

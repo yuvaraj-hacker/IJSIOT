@@ -12,7 +12,7 @@ const HelmetComponent = ({ title }) => {
             <meta property="og:title" content="International Journal of Smart Internet of Things and Applications (IJSIOT)" />
             <meta property="og:description" content="The International Journal of Smart Internet of Things and Applications (IJSIOT) publishes high-quality research in IoT, smart applications, AI, and advanced engineering fields." />
             <meta property="og:url" content="https://www.ijsiot.com/" />
-            <meta property="og:image" content="https://www.ijsiot.com/assets/Images/IJSIOT.png" />
+            <meta property="og:image" content="https://www.ijsiot.com//assets/Images/IJSIOT.png" />
             <link rel="canonical" href="https://www.ijsiot.com/" />
             <link rel="icon" type="image/png" href="https://www.ijsiot.com/assets/Images/Fav.png" />
         </Helmet>

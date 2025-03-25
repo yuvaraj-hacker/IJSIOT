@@ -26,15 +26,22 @@ function Home() {
                 <img className="mx-auto w-full" src="/assets/Images/intrernet of things.jpg" alt="" />
                 <div className="absolute inset-0 bg-[#2F1A00] opacity-10"></div>
               </div>
-              <button className="md:p-3 p-2 md:hidden  w-fit mx-auto md:text-base  text-center  order-3  text-white bg-[#B49752] flex items-center justify-center gap-3  duration-300 cursor-pointer  ">
-                Submit Your Manuscript
-                 <i className="fi fi-sr-play text-xs text-white  flex items-center"></i>
-              </button>
+
+              <div className="order-3">
+
+
+                <a href="https://ijsiot.com/Ijsiot/index.php/ijsiot/about/submissions" target="_blank">
+                  <button className="md:p-3 p-2 md:hidden  w-fit mx-auto md:text-base  text-center    text-white bg-[#B49752] flex items-center justify-center gap-3  duration-300 cursor-pointer  ">
+                    Submit Your Manuscript
+                    <i className="fi fi-sr-play text-xs text-white  flex items-center"></i>
+                  </button>
+                </a>
+              </div>
             </section>
 
             <section className="flex flex-col md:gap-4 gap-3">
               <div className='  '>
-                 <h1 className=" text-[#2F1A00]  underline underline-offset-4 decoration-[#2F1A00]     text-center merry  font-bold  lg:text-2xl   text-lg ">
+                <h1 className=" text-[#2F1A00]  underline underline-offset-4 decoration-[#2F1A00]     text-center merry  font-bold  lg:text-2xl   text-lg ">
                   About Our Publication
                 </h1>
               </div>
