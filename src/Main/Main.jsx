@@ -188,7 +188,7 @@ const Main = () => {
                 <div className="flex flex-col gap-2" >
                   {navLinks.map((link) => (
                     <div
-                      key={link.to}
+                        key={link.to}
                       className="   "
                     // onMouseEnter={() => handleMouseEnter(link.label)}
                     // onMouseLeave={handleMouseLeave}
@@ -232,7 +232,7 @@ const Main = () => {
 
         </section> */}
         <div className="py-5 lg:col-span-8 col-span-10">
-          <div className=" border-l-[#B49752] border-l ">
+          <div className=" border-l-[#B49752] md:border-l ">
             <Outlet />
           </div>
         </div>

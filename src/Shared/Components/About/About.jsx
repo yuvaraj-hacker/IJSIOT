@@ -20,8 +20,8 @@ function About() {
             <section>
               <h1 className="bg-[#B49752] h-[1px] w-full  "></h1>
             </section>
-            <section className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1  md:gap-10 gap-5'>
-              <div className='flex flex-col gap-2 md:p-4 p-2 bg-[#B49752]'>
+            <section className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1    gap-3'>
+              <div className='flex flex-col gap-2 p-4 bg-[#B49752]'>
                 <h2 className='text-white font-bold merry md:text-lg underline underline-offset-2'>Editorial Excellence</h2>
                 <div className='flex   gap-3'>
                   <i className="fi fi-sr-play   text-xs    text-white  mt-1  "></i>
@@ -29,7 +29,7 @@ function About() {
                   </p>
                 </div>
               </div>
-              <div className='flex flex-col gap-2 md:p-4 p-2 bg-[#B49752]'>
+              <div className='flex flex-col gap-2 p-4 bg-[#B49752]'>
                 <h2 className='text-white font-bold merry md:text-lg  underline underline-offset-2'>Global Reach and Impact</h2>
                 <div className='flex   gap-3 '>
                   <i className="fi fi-sr-play   text-xs    text-white   mt-1 "></i>
@@ -37,7 +37,7 @@ function About() {
                   </p>
                 </div>
               </div>
-              <div className='flex flex-col gap-2 md:p-4 p-2 bg-[#B49752]'>
+              <div className='flex flex-col gap-2 p-4 bg-[#B49752]'>
                 <h2 className='text-white font-bold merry md:text-lg  underline underline-offset-2' >Publication Ethics</h2>
                 <div className='flex   gap-3'>
                   <i className="fi fi-sr-play   text-xs    text-white   mt-1 "></i>
@@ -52,7 +52,7 @@ function About() {
                   Scope of the International Journal of Smart Internet of Things and Applications (IJSIOT)
                 </h1>
               </div>
-              <p className="text-justify md:text-base bg-[#B49752] text-white md:p-4 p-2  text-sm">
+              <p className="text-justify md:text-base bg-[#B49752] text-white p-4  text-sm">
                 The International Journal of Smart Internet of Things and Applications (IJSIOT) aims to provide a comprehensive platform for researchers, academicians, and industry professionals to share and discuss advancements in IoT technologies, applications, and innovations. The journal covers a broad spectrum of topics, including but not limited to:              </p>
               <div className='flex flex-col gap-2 md:text-base text-sm'>
                 {/* <div className='flex items-center gap-2'>

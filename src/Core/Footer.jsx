@@ -12,7 +12,7 @@ const Footer = () => {
               <img className=' p-2 w-40 md:mx-0   mx-auto' src="/assets/Images/IJSIOT.png" alt="" />
             </Link>
             <div className='flex flex-col justify-center md:items-start items-center md:text-left lg:text-base text-sm'>
-               <div className='flex gap-3 items-center'>
+              <div className='flex gap-3 items-center'>
                 <FaEnvelope />
                 <p>  <a href=" " className=" ">editorijsiot@gmail.com</a></p>
               </div>
@@ -28,11 +28,11 @@ const Footer = () => {
           <div className='lg:mx-auto md:text-left text-center '>
             <h4 className="lg:text-xl font-bold mb-2 merry">Resources</h4>
             <ul className=' lg:text-base text-sm'>
-              <li><a href="/" className="hover:underline">Home</a></li>
-              <li><a className="hover:underline w-fit"> <Link to='/about'>About Us</Link></a></li>
-              <li><a className="hover:underline"><Link to='/contact'>Contact </Link> </a></li>
-              <li><a className="hover:underline"><Link to='/editorial-board'>Editorial Board </Link></a></li>
-              <li><a className="hover:underline"><Link to='/issues'>  Issues </Link> </a></li>
+              <li><div href="/" className="hover:underline">Home</div></li>
+              <li><div className="hover:underline"> <Link to='/about'>About Us</Link></div></li>
+              <li><div className="hover:underline"><Link to='/contact'>Contact </Link> </div></li>
+              <li><div className="hover:underline"><Link to='/editorial-board'>Editorial Board </Link></div></li>
+              <li><div className="hover:underline"><Link to='/issues'>  Issues </Link> </div></li>
             </ul>
           </div>
           <div className='lg:ml-auto  md:text-left text-center  '>
@@ -40,10 +40,10 @@ const Footer = () => {
               <div className=''>
                 <h4 className="lg:text-xl font-bold mb-2 merry">Journal Overview</h4>
                 <ul className="lg:text-base text-sm ">
-                  <li><a className="hover:underline"><Link to='/Peer-Review-Process'> Peer Review Process </Link> </a></li>
-                  <li><a className="hover:underline"><Link to='/Publication-ethics'> Publication Ethics </Link></a></li>
-                  <li><a className="hover:underline"><Link to='/abstracting-and-indexing'>Abstracting and Indexing </Link></a></li>
-                  <li><a className="hover:underline"><Link to='/article-processing'>Article Processing Charges </Link>  </a></li>
+                  <li><div className="hover:underline"><Link to='/Peer-Review-Process'> Peer Review Process </Link> </div></li>
+                  <li><div className="hover:underline"><Link to='/Publication-ethics'> Publication Ethics </Link></div></li>
+                  <li><div className="hover:underline"><Link to='/abstracting-and-indexing'>Abstracting and Indexing </Link></div></li>
+                  <li><div className="hover:underline"><Link to='/article-processing'>Article Processing Charges </Link>  </div></li>
                 </ul>
               </div>
             </div>
@@ -53,21 +53,21 @@ const Footer = () => {
               <div className=''>
                 <h4 className="lg:text-xl font-bold mb-2 merry">Journal Policy</h4>
                 <ul className="lg:text-base text-sm ">
-                  <li><a href="/editorial-board" className="hover:underline"><Link to='plagiarism'>Plagiarism </Link></a></li>
-                  <li><a href="/peerreview" className="hover:underline"><Link to='/malpractice'>Malpractice </Link></a></li>
-                  <li><a href="/publicationethic" className="hover:underline"><Link to='/correction'>Correction </Link></a></li>
-                  <li><a href="/abstracting" className="hover:underline"><Link to='/publication-policy'>Publication Rights</Link></a></li>
+                  <li><div href="/editorial-board" className="hover:underline"><Link to='plagiarism'>Plagiarism </Link></div></li>
+                  <li><div href="/peerreview" className="hover:underline"><Link to='/malpractice'>Malpractice </Link></div></li>
+                  <li><div href="/publicationethic" className="hover:underline"><Link to='/correction'>Correction </Link></div></li>
+                  <li><div href="/abstracting" className="hover:underline"><Link to='/publication-policy'>Publication Rights</Link></div></li>
                 </ul>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <h1 className="bg-slate-300 h-[1px] max-w-[92rem] mx-auto  "></h1>
-      <div className='grid lg:grid-cols-3 grid-cols-1  items-center  gap-2  py-3'>
+      <h1 className="bg-white h-[1px] max-w-[92rem] mx-auto  "></h1>
+      <div className='grid lg:grid-cols-3 grid-cols-1  items-center  gap-2  pb-2 md:py-3 py-0'>
         <div>
         </div>
-        <div className="text-center    ">
+        <div className="text-center   md:text-base text-xs  ">
           <p>© 2025 <span className='hover:underline' > <Link to="/" target='_blank'>IJSIOT</Link> </span> . All Rights Reserved.</p>
         </div>
       </div>
