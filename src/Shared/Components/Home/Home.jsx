@@ -24,11 +24,11 @@ function Home() {
               </div>
               <div className="relative w-full md:order-2 order-1">
                 <img className="mx-auto w-full" src="/assets/Images/intrernet of things.jpg" alt="" />
-                <div className="absolute inset-0 bg-[#2F1A00] opacity-20"></div>
+                <div className="absolute inset-0 bg-[#2F1A00] opacity-10"></div>
               </div>
               <button className="md:p-3 p-2 md:hidden  w-fit mx-auto md:text-base  text-center  order-3  text-white bg-[#B49752] flex items-center justify-center gap-3  duration-300 cursor-pointer  ">
                 Submit Your Manuscript
-                <i className="fi fi-sr-play text-xs text-white  flex items-center"></i>
+                 <i className="fi fi-sr-play text-xs text-white  flex items-center"></i>
               </button>
             </section>
 
