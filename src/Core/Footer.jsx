@@ -8,17 +8,17 @@ const Footer = () => {
         <div className="grid grid-cols-1  md:grid-cols-4 sm:grid-cols-2 md:gap-8 gap-4">
           <div className='text-center md:text-left flex flex-col gap-4 justify-between'>
             <Link to='/'>
-              <p className=" font-bold md:text-2xl ">IJSIOT</p>
-              {/* <img className='bg-white p-2 w-40 md:mx-0   mx-auto' src="/assets/Images/IJATRA.png" alt="" /> */}
+              {/* <p className=" font-bold md:text-2xl ">IJSIOT</p> */}
+              <img className=' p-2 w-40 md:mx-0   mx-auto' src="/assets/Images/IJSIOT.png" alt="" />
             </Link>
             <div className='flex flex-col justify-center md:items-start items-center md:text-left lg:text-base text-sm'>
-              <div className='flex gap-3 items-center'>
+               <div className='flex gap-3 items-center'>
                 <FaEnvelope />
-                <p>Email: <a href="mailto:editor@AJARCSE.com" className=" ">editorijsiot@gmail.com</a></p>
+                <p>  <a href=" " className=" ">editorijsiot@gmail.com</a></p>
               </div>
               <div className='flex gap-3 items-center'>
                 <FaGlobe />
-                <p>Website: <a href="https://www.AJARCSE.com" className=" ">www.ijsiot.com</a></p>
+                <p>  <a href=" " className=" ">www.ijsiot.com</a></p>
               </div>
               <div className=' p-3 '>
                 <img className='md:ml-auto md:mx-0 mx-auto w-24   block' src="/assets/Images/ojs_brand.png" alt="ojs" />
@@ -29,7 +29,7 @@ const Footer = () => {
             <h4 className="lg:text-xl font-bold mb-2 merry">Resources</h4>
             <ul className=' lg:text-base text-sm'>
               <li><a href="/" className="hover:underline">Home</a></li>
-                <li><a className="hover:underline w-fit"> <Link to='/about'>About Us</Link></a></li>
+              <li><a className="hover:underline w-fit"> <Link to='/about'>About Us</Link></a></li>
               <li><a className="hover:underline"><Link to='/contact'>Contact </Link> </a></li>
               <li><a className="hover:underline"><Link to='/editorial-board'>Editorial Board </Link></a></li>
               <li><a className="hover:underline"><Link to='/issues'>  Issues </Link> </a></li>

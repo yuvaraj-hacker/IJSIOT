@@ -3,7 +3,7 @@ import React from 'react'
 function MalPractice() {
     return (
         <>
-            <section className="flex flex-col gap-5 max-w-[90rem] py-5  mx-auto md:px-5 px-3">
+            <section className="flex flex-col gap-5 max-w-[90rem]   mx-auto md:px-5 px-3">
                 <div className="  relative">
                     <section className="flex flex-col gap-5">
                         <section className="flex flex-col gap-4">
@@ -13,7 +13,7 @@ function MalPractice() {
                                 </h1>
                             </div>
                             <p className="text-justify md:text-base text-sm">
-                                International Journal advanced trends in Robotics and Automation maintains high standards of publication ethics and takes stringent measures against publication malpractices. This policy follows the Code of Conduct and Best Practice Guidelines for Journal Editors.                            </p>                        </section>
+                            International Journal of Smart Internet of Things and Applications maintains high standards of publication ethics and takes stringent measures against publication malpractices. This policy follows the Code of Conduct and Best Practice Guidelines for Journal Editors.                            </p>                        </section>
 
                         <section className="flex flex-col gap-2">
                             <h1 className="    merry   font-semibold text-[#2F1A00]  underline underline-offset-2 lg:text-2xl   text-lg ">

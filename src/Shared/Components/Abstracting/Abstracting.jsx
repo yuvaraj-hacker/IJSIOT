@@ -3,7 +3,7 @@ import React from 'react'
 function Abstracting() {
     return (
         <>
-            <section className="flex flex-col gap-5 max-w-[90rem] py-5  mx-auto md:px-5 px-3">
+            <section className="flex flex-col gap-5 max-w-[90rem]   mx-auto md:px-5 px-3">
                 <div className="  relative">
                     <section className="flex flex-col gap-5">
                         <section className="flex flex-col gap-4">
@@ -13,7 +13,7 @@ function Abstracting() {
                                 </h1>
                             </div>
                             <p className="text-justify md:text-base text-sm">
-                            International Journal of smart Internet of Things and applications (IJSIOT) is committed to ensuring the visibility and accessibility of published research. Our journal is indexed in various reputed databases to enhance the reach and impact of our articles.
+                                International Journal of smart Internet of Things and applications (IJSIOT) is committed to ensuring the visibility and accessibility of published research. Our journal is indexed in various reputed databases to enhance the reach and impact of our articles.
                             </p>
                         </section>
 
@@ -82,6 +82,8 @@ function Abstracting() {
                             </p>
                         </section>
 
+                        <p className="text-justify md:text-base bg-[#B49752] text-white p-2 text-sm">
+                            <span className='font-bold'>Note:</span> Indexing status is continuously updated. Authors are encouraged to verify current indexing coverage.</p>
 
 
 

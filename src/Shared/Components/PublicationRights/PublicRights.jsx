@@ -3,7 +3,7 @@ import React from 'react'
 function PublicRights() {
     return (
         <>
-            <section className="flex flex-col gap-5 max-w-[90rem] py-5  mx-auto md:px-5 px-3">
+            <section className="flex flex-col gap-5 max-w-[90rem]   mx-auto md:px-5 px-3">
                 <div className="  relative">
                     <section className="flex flex-col gap-5">
                         <section className="flex flex-col gap-4">
@@ -13,7 +13,7 @@ function PublicRights() {
                                 </h1>
                             </div>
                             <p className="text-justify md:text-base text-sm">
-                                International Journal advanced trends in Robotics and Automation implements a balanced publication rights policy that protects both author interests and journal integrity. Our approach focuses on exclusive licensing rather than copyright transfer, ensuring maximum distribution while maintaining authors' intellectual property rights.
+                            International Journal of Smart Internet of Things and Applications implements a balanced publication rights policy that protects both author interests and journal integrity. Our approach focuses on exclusive licensing rather than copyright transfer, ensuring maximum distribution while maintaining authors' intellectual property rights.
                             </p>                        </section>
 
                         <section className="flex flex-col gap-2">

@@ -3,14 +3,14 @@ import React from 'react'
 function About() {
   return (
     <>
-      <section className="flex flex-col gap-5 max-w-[90rem] py-5  mx-auto md:px-5 px-3">
+      <section className="flex flex-col gap-5 max-w-[90rem]  mx-auto md:px-5 px-3">
         <div className="  relative">
           <section className="flex flex-col gap-5">
             <section className="flex justify-between flex-wrap md:flex-nowrap gap-5">
               <div className="flex flex-col justify-evenly gap-4">
                 <div className='  '>
                   <h1 className="   text-center merry underline underline-offset-4 decoration-[#2F1A00] text-[#2F1A00]    font-bold  lg:text-2xl   text-lg ">
-                   About Us
+                    About Us
                   </h1>
                 </div>
                 <p className="text-justify md:text-base text-sm">
@@ -21,26 +21,26 @@ function About() {
               <h1 className="bg-[#B49752] h-[1px] w-full  "></h1>
             </section>
             <section className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1  md:gap-10 gap-5'>
-              <div className='flex flex-col gap-2 p-2 bg-[#B49752]'>
+              <div className='flex flex-col gap-2 md:p-4 p-2 bg-[#B49752]'>
                 <h2 className='text-white font-bold merry md:text-lg underline underline-offset-2'>Editorial Excellence</h2>
                 <div className='flex   gap-3'>
-                  <i className="fi fi-sr-play   text-xs    text-white   "></i>
+                  <i className="fi fi-sr-play   text-xs    text-white  mt-1  "></i>
                   <p className="text-justify text-white  md:text-base text-sm">        Our editorial board consists of renowned experts in Smart IoT and emerging technologies. They ensure a rigorous peer review process, maintaining the highest standards of research quality and scientific integrity in every published article.
                   </p>
                 </div>
               </div>
-              <div className='flex flex-col gap-2 p-2 bg-[#B49752]'>
+              <div className='flex flex-col gap-2 md:p-4 p-2 bg-[#B49752]'>
                 <h2 className='text-white font-bold merry md:text-lg  underline underline-offset-2'>Global Reach and Impact</h2>
                 <div className='flex   gap-3 '>
-                  <i className="fi fi-sr-play   text-xs    text-white   "></i>
+                  <i className="fi fi-sr-play   text-xs    text-white   mt-1 "></i>
                   <p className="text-justify  md:text-base text-sm text-white">        IJSIOT connects researchers and professionals across continents, fostering knowledge exchange in Smart IoT applications. Our journal is indexed in major academic databases, ensuring broad visibility and impactful contributions to the field.
                   </p>
                 </div>
               </div>
-              <div className='flex flex-col gap-2 p-2 bg-[#B49752]'>
+              <div className='flex flex-col gap-2 md:p-4 p-2 bg-[#B49752]'>
                 <h2 className='text-white font-bold merry md:text-lg  underline underline-offset-2' >Publication Ethics</h2>
                 <div className='flex   gap-3'>
-                  <i className="fi fi-sr-play   text-xs    text-white   "></i>
+                  <i className="fi fi-sr-play   text-xs    text-white   mt-1 "></i>
                   <p className="text-justify  md:text-base text-sm text-white">        We uphold strict ethical standards in publishing Smart IoT research. IJSIOT ensures transparency in peer review, rigorous plagiarism checks, and fair treatment of all submissions, fostering trust and credibility in scientific publishing.
                   </p>
                 </div>
@@ -48,11 +48,11 @@ function About() {
             </section>
             <section className="flex flex-col gap-4">
               <div className='  '>
-                <h1 className="   text-center merry   font-bold  lg:text-2xl    underline underline-offset-4 decoration-[#2F1A00] text-[#2F1A00]  text-lg ">
+                <h1 className="   text-center merry   font-bold  lg:text-2xl   underline underline-offset-4 decoration-[#2F1A00] text-[#2F1A00]  text-lg ">
                   Scope of the International Journal of Smart Internet of Things and Applications (IJSIOT)
                 </h1>
               </div>
-              <p className="text-justify md:text-base bg-[#B49752] text-white p-2 text-sm">
+              <p className="text-justify md:text-base bg-[#B49752] text-white md:p-4 p-2  text-sm">
                 The International Journal of Smart Internet of Things and Applications (IJSIOT) aims to provide a comprehensive platform for researchers, academicians, and industry professionals to share and discuss advancements in IoT technologies, applications, and innovations. The journal covers a broad spectrum of topics, including but not limited to:              </p>
               <div className='flex flex-col gap-2 md:text-base text-sm'>
                 {/* <div className='flex items-center gap-2'>
@@ -97,29 +97,26 @@ function About() {
               <div className='flex flex-col gap-2  md:text-base text-sm'>
                 <div className='flex items-center gap-2'>
                   <i className="fi fi-sr-play text-xs  text-[#B49752]   flex items-center"></i>
-                  <p className=""><span className='text-[#B49752]  font-semibold'>Publishing cutting-edge research</span>  that advances IoT technologies and their real-world implementations.</p>
+                  <p className=""><span className='text-[#2F1A00]  font-semibold'>Publishing cutting-edge research</span>  that advances IoT technologies and their real-world implementations.</p>
                 </div>
                 <div className='flex items-center gap-2'>
                   <i className="fi fi-sr-play text-xs  text-[#B49752]   flex items-center"></i>
-                  <p className=""><span className='text-[#B49752]  font-semibold'>Encouraging innovation</span> by providing a global platform for researchers, academicians, and industry professionals to collaborate.</p>
+                  <p className=""><span className='text-[#2F1A00]  font-semibold'>Encouraging innovation</span> by providing a global platform for researchers, academicians, and industry professionals to collaborate.</p>
                 </div>
                 <div className='flex items-center gap-2'>
                   <i className="fi fi-sr-play text-xs  text-[#B49752]   flex items-center"></i>
-                  <p className=""><span className='text-[#B49752]  font-semibold'>Bridging academia and industry</span>  by featuring studies that have direct applications in sectors like healthcare, smart cities, agriculture, and automation.</p>
+                  <p className=""><span className='text-[#2F1A00]  font-semibold'>Bridging academia and industry</span>  by featuring studies that have direct applications in sectors like healthcare, smart cities, agriculture, and automation.</p>
                 </div>
                 <div className='flex items-center gap-2'>
                   <i className="fi fi-sr-play text-xs  text-[#B49752]   flex items-center"></i>
-                  <p className=""><span className='text-[#B49752]  font-semibold'>Ensuring knowledge dissemination</span>  through open-access, peer-reviewed publications that contribute to the academic and industrial IoT ecosystem.</p>
+                  <p className=""><span className='text-[#2F1A00]  font-semibold'>Ensuring knowledge dissemination</span>  through open-access, peer-reviewed publications that contribute to the academic and industrial IoT ecosystem.</p>
                 </div>
                 <div className='flex items-center gap-2'>
                   <i className="fi fi-sr-play text-xs  text-[#B49752]   flex items-center"></i>
-                  <p className=""><span className='text-[#B49752] font-semibold'>Fostering interdisciplinary research</span>  by integrating IoT with AI, blockchain, cybersecurity, and emerging technologies to address modern challenges.</p>
+                  <p className=""><span className='text-[#2F1A00] font-semibold'>Fostering interdisciplinary research</span>  by integrating IoT with AI, blockchain, cybersecurity, and emerging technologies to address modern challenges.</p>
                 </div>
-
-
               </div>
             </section>
-
           </section>
         </div>
       </section>

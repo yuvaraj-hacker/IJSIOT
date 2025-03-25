@@ -171,7 +171,7 @@ const Main = () => {
       <div ref={headerRef} className="   text-white fixed top-0  w-full  z-50">
         <Header />
       </div>
-      <main ref={mainRef} className="grid grid-cols-10  mx-auto max-w-[100rem]  relative min-h-screen  " style={{ marginTop: `${headerHeight}px` }} >
+      <main ref={mainRef} className="grid grid-cols-10  mx-auto max-w-[100rem]  relative   " style={{ marginTop: `${headerHeight}px` }} >
         {/* <aside className="col-span-2 py-5 ">
           <nav>
             <ul>
@@ -181,9 +181,9 @@ const Main = () => {
              </ul>
           </nav>
         </aside> */}
-        <section className={`md:bg-white   lg:block hidden w-full  sticky top-14 border-r border-r-[#B49752]  col-span-2 py-5 md:px-5 px-3 self-start min-h-screen overflow-y-auto  `}>
+        <section className={`md:bg-white   lg:block hidden w-full  sticky top-[90px]    col-span-2 py-5 md:px-5 px-3 self-start    overflow-y-auto  `}>
           <header className="  bg-white ">
-            <div className="   ">
+            <div className="  ">
               <nav ref={dropdownRef}>
                 <div className="flex flex-col gap-2" >
                   {navLinks.map((link) => (
@@ -196,28 +196,25 @@ const Main = () => {
                     // onMouseLeave={() => window.innerWidth >= 768 && handleMouseLeave()}
                     >
                       <Link to={link.to}
-                        className={`    p-2 flex    gap-3  transition-all duration-300 ease-in-out    lg:text-base md:text-sm  bg-[#2F1A00] border border-[#2F1A00]    ${isActive(link.to) || hoveredCategory === link.label ? 'md:bg-[#2F1A00] text-[#3E8000] text-white' : 'text-white'} `}
+                        className={`    p-2 flex     gap-3  transition-all duration-300 ease-in-out    lg:text-base md:text-sm  bg-[#2F1A00] border border-[#2F1A00]    ${isActive(link.to) || hoveredCategory === link.label ? 'md:bg-[#2F1A00] text-[#3E8000] text-white' : 'text-white'} `}
                         onClick={(e) => {
                           if (link.dropdown) {
                             e.preventDefault();
                             setHoveredCategory((prev) => (prev === link.label ? null : link.label));
                           }
-                        }}
-                      >
+                        }}  >
                         {link.dropdown && (
                           <i className={`fi fi-sr-play flex items-center text-sm  transition-all duration-300 ease-in-out  text-white ${isActive(link.to) || hoveredCategory === link.label ? '  text-white rotate-90 duration-100' : ' '} `}></i>
                         )}
                         {link.label}
                       </Link>
                       {hoveredCategory === link.label && link.dropdown && (
-                        <div className="  left-0 top-full   w-full md:bg-white    transition-all duration-300 ease-in-out opacity-100 scale-y-100 origin-top    p-3 z-10">
+                        <div className="  left-0 top-full   w-full md:bg-white border border-[#2F1A00]    transition-all duration-300 ease-in-out opacity-100 scale-y-100 origin-top    p-3 z-10">
                           {link.dropdown.map((dropdownlink) => (
                             <Link
                               key={dropdownlink.to}
                               to={dropdownlink.to}
                               className="block px-4 py-2 md:text-[#2F1A00]  md:text-start text-center    underline underline-offset-2 text-[#2F1A00]"
-
-
                             >
                               {dropdownlink.label}
                             </Link>
@@ -231,8 +228,13 @@ const Main = () => {
             </div>
           </header>
         </section>
-        <div className="lg:col-span-8 col-span-10">
-          <Outlet />
+        {/* <section className="w-0.5 bg-[#B49752]">
+
+        </section> */}
+        <div className="py-5 lg:col-span-8 col-span-10">
+          <div className=" border-l-[#B49752] border-l ">
+            <Outlet />
+          </div>
         </div>
       </main >
       <div>

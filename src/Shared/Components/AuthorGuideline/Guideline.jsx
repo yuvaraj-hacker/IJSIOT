@@ -47,7 +47,7 @@ function Guideline() {
 
     return (
         <>
-            <section className="flex flex-col gap-5 max-w-[90rem] py-5  mx-auto md:px-5 px-3">
+            <section className="flex flex-col gap-5 max-w-[90rem]    mx-auto md:px-5 px-3">
                 <div className="  relative">
                     <section className="flex flex-col gap-5">
                         <section className="flex flex-col gap-4">
@@ -114,7 +114,7 @@ function Guideline() {
 
                         <section className="flex flex-col gap-4">
                             <div className='   '>
-                                <h1 className="underline underline-offset-4 decoration-[#2F1A00] text-[#2F1A00]  text-center merry   md:p-3 p-2 font-semibold  lg:text-2xl   text-lg ">
+                                <h1 className="underline underline-offset-4 decoration-[#2F1A00] text-[#2F1A00]  text-center merry    font-semibold  lg:text-2xl   text-lg ">
                                     Publishing Requirements
                                 </h1>
                             </div>
@@ -134,7 +134,6 @@ function Guideline() {
                                     ))}
                                 </div>
                             </section>
-
 
                         </section>
                         <section className="flex flex-col gap-4  md:text-base text-sm">

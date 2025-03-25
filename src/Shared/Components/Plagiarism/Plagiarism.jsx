@@ -3,7 +3,7 @@ import React from 'react'
 function Plagiarism() {
     return (
         <>
-            <section className="flex flex-col gap-5 max-w-[90rem] py-5  mx-auto md:px-5 px-3">
+            <section className="flex flex-col gap-5 max-w-[90rem]    mx-auto md:px-5 px-3">
                 <div className="  relative">
                     <section className="flex flex-col gap-5">
                         <section className="flex flex-col gap-4">
@@ -38,19 +38,19 @@ function Plagiarism() {
                             <div className='flex flex-col gap-2  md:text-base text-sm'>
                                 <div className='flex items-center gap-2'>
                                     <i className="fi fi-sr-play text-xs text-[#B49752]   flex items-center"></i>
-                                    <p  ><span className='text-[#B49752] font-semibold'>Direct Plagiarism:</span> Copying text verbatim without proper citation.</p>
+                                    <p  ><span className='text-[#2F1A00] font-semibold'>Direct Plagiarism:</span> Copying text verbatim without proper citation.</p>
                                 </div>
                                 <div className='flex items-center gap-2'>
                                     <i className="fi fi-sr-play text-xs text-[#B49752]   flex items-center"></i>
-                                    <p  ><span className='text-[#B49752] font-semibold'>Self-Plagiarism:</span> Reusing one’s own previously published work without disclosure.</p>
+                                    <p  ><span className='text-[#2F1A00] font-semibold'>Self-Plagiarism:</span> Reusing one’s own previously published work without disclosure.</p>
                                 </div>
                                 <div className='flex items-center gap-2'>
                                     <i className="fi fi-sr-play text-xs text-[#B49752]   flex items-center"></i>
-                                    <p  ><span className='text-[#B49752] font-semibold'>Mosaic Plagiarism:</span> Mixing copied phrases with original text without proper acknowledgment.  </p>
+                                    <p  ><span className='text-[#2F1A00] font-semibold'>Mosaic Plagiarism:</span> Mixing copied phrases with original text without proper acknowledgment.  </p>
                                 </div>
                                 <div className='flex items-center gap-2'>
                                     <i className="fi fi-sr-play text-xs text-[#B49752]   flex items-center"></i>
-                                    <p  ><span className='text-[#B49752] font-semibold'>Improper Paraphrasing:</span> Rewording another author’s work without appropriate citation.</p>
+                                    <p  ><span className='text-[#2F1A00] font-semibold'>Improper Paraphrasing:</span> Rewording another author’s work without appropriate citation.</p>
                                 </div>
 
 

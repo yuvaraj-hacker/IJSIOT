@@ -3,7 +3,7 @@ import React from 'react'
 function Publication() {
     return (
         <>
-            <section className="flex flex-col gap-5 max-w-[90rem] py-5  mx-auto md:px-5 px-3">
+            <section className="flex flex-col gap-5 max-w-[90rem]   mx-auto md:px-5 px-3">
                 <div className="  relative">
                     <section className="flex flex-col gap-5">
                         <section className="flex flex-col gap-4">
@@ -117,6 +117,9 @@ function Publication() {
                                 </div>
                             </div>
                         </section>
+                        <p className="text-justify md:text-base bg-[#B49752] text-white p-2 text-sm">
+                            <span className='font-bold'>Note:</span>  This publication ethics policy is subject to periodic review and update to align with evolving best practices in scholarly publishing.  </p>
+
                     </section>
                 </div>
             </section>

@@ -3,7 +3,7 @@ import React from 'react'
 function ArticleProcess() {
     return (
         <>
-            <section className="flex flex-col gap-5 max-w-[90rem] py-5  mx-auto md:px-5 px-3">
+            <section className="flex flex-col gap-5 max-w-[90rem]    mx-auto md:px-5 px-3">
                 <div className="  relative">
                     <section className="flex flex-col gap-5">
                         <section className="flex flex-col gap-4">
@@ -13,7 +13,7 @@ function ArticleProcess() {
                                 </h1>
                             </div>
                             <p className="text-justify md:text-base text-sm">
-                            International Journal of smart Internet of Things and applications (IJSIOT) follows a structured article processing workflow to ensure timely and high-quality publication of research articles.                            </p>
+                                International Journal of smart Internet of Things and applications (IJSIOT) follows a structured article processing workflow to ensure timely and high-quality publication of research articles.                            </p>
                         </section>
 
                         <section className="flex flex-col gap-2">
@@ -45,7 +45,6 @@ function ArticleProcess() {
                                     <i className="fi fi-sr-play text-xs text-[#B49752]   flex items-center"></i>
                                     <p className="">Manuscripts not meeting the criteria may be returned for modifications.</p>
                                 </div>
-
                             </div>
                         </section>
                         <section className="flex flex-col gap-2">
@@ -61,14 +60,12 @@ function ArticleProcess() {
                                     <i className="fi fi-sr-play text-xs text-[#B49752]   flex items-center"></i>
                                     <p className="">Authors receive constructive feedback and are required to submit revisions if necessary.</p>
                                 </div>
-
                             </div>
                         </section>
                         <section className="flex flex-col gap-2">
                             <h1 className="    merry   font-semibold text-[#2F1A00]  underline underline-offset-2 lg:text-2xl   text-lg ">
                                 DOI Assignment & Online Publication
                             </h1>
-
                             <div className='flex flex-col gap-2  md:text-base text-sm'>
                                 <div className='flex items-center gap-2'>
                                     <i className="fi fi-sr-play text-xs text-[#B49752]   flex items-center"></i>
@@ -78,9 +75,6 @@ function ArticleProcess() {
                                     <i className="fi fi-sr-play text-xs text-[#B49752]   flex items-center"></i>
                                     <p className="">The article is published online and made available for indexing.</p>
                                 </div>
-
-
-
                             </div>
                         </section>
                         <section className="flex flex-col gap-2">
@@ -98,6 +92,8 @@ function ArticleProcess() {
                                 </div>
                             </div>
                         </section>
+                        <p className="text-justify md:text-base bg-[#B49752] text-white p-2 text-sm">
+                            <span className='font-bold'>Note:</span> Guidelines subject to periodic review and update.</p>
                     </section>
                 </div>
             </section>

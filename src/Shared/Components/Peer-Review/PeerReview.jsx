@@ -3,7 +3,7 @@ import React from 'react'
 function PeerReview() {
     return (
         <>
-            <section className="flex flex-col gap-5 max-w-[90rem] py-5  mx-auto md:px-5 px-3">
+            <section className="flex flex-col gap-5 max-w-[90rem]   mx-auto md:px-5 px-3">
                 <div className="  relative">
                     <section className="flex flex-col gap-5">
                         <section className="flex flex-col gap-4">
@@ -13,7 +13,7 @@ function PeerReview() {
                                 </h1>
                             </div>
                             <p className="text-justify md:text-base text-sm">
-                            International Journal of smart Internet of Things and applications (IJSIOT) follows a rigorous peer review process to maintain the highest standards of academic excellence and research integrity.                            </p>
+                                International Journal of smart Internet of Things and applications (IJSIOT) follows a rigorous peer review process to maintain the highest standards of academic excellence and research integrity.                            </p>
 
                         </section>
 
@@ -118,6 +118,9 @@ function PeerReview() {
 
                             </div>
                         </section>
+
+                        <p className="text-justify md:text-base bg-[#B49752] text-white p-2 text-sm">
+                            <span className='font-bold'>Note to Authors:</span>    Carefully review manuscript against IJSIOT submission guidelines. Ensure all sections are thoroughly developed and substantiated with empirical evidence.       </p>
 
 
                     </section>

@@ -123,26 +123,24 @@ const Header = () => {
 
   return (
     <>
-      <section className="bg-[#2F1A00]">
+      <section className="bg-[#2F1A00] md:py-5 py-2">
         <div className="max-w-[100rem] mx-auto md:px-5 px-3 bg-[#2F1A00] ">
           <div className="flex items-center justify-between   lg:gap-0  gap-5  ">
             <Link to="/">
               <div className="  w-[200px]     ">
-                <div className="bg-[#B49752]    text-center   ">
-                  <p className="   p-4 px-7 font-bold text-white" >IJSIOT</p>
-                  {/* <img className="   font-bold text-[#3E8000]" src="/assets/Images/IJARTA-New.png" alt="" /> */}
+                <div className="    text-center   ">
+                  {/* <p className="    font-bold text-white" >IJSIOT</p> */}
+                  <img className="   font-bold mx-auto  w-40 " src="/assets/Images/IJSIOT.png" alt="" />
                 </div>
               </div>
             </Link>
-            <div className="lg:block hidden xl:text-2xl text-xl   merry">
-              International Journal of smart Internet of Things and applications
+            <div className="lg:block hidden xl:text-2xl  text-xl    merry">
+              International Journal of Smart Internet of Things and Applications
             </div>
             <div className="lg:block hidden">
-              <button className="md:p-3 p-2    text-white   flex gap-2       bg-[#B49752]   duration-300 cursor-pointer  ">
+              <button className="md:p-3 p-2    text-white   flex gap-2   xl:text-base text-xs    bg-[#B49752]   duration-300 cursor-pointer  ">
                 Submit Your Manuscript
-
                 <i className="fi fi-sr-play text-xs text-white  flex items-center"></i>
-
               </button>
             </div>
             <div className="lg:hidden block">
@@ -186,9 +184,7 @@ const Header = () => {
           Submit Your Manuscript
         </button>
       </div>
-      <section className={`md:bg-white bg-white border-[#2F1A00] border fixed top-0  right-0 h-full w-64
-  transform transition-transform duration-300 ease-in-out
-  ${menuOpen ? "translate-x-0" : "translate-x-full"}`}>
+      <section className={`md:bg-white bg-white border-[#2F1A00] border fixed top-0  right-0 h-full w-64  transform transition-transform duration-300 ease-in-out ${menuOpen ? "translate-x-0" : "translate-x-full"}`}>
         <div className="text-black text-left p-4 cursor-pointer">
           {/* <p onClick={() => setMenuOpen(false)} className=" text-black">close</p> */}
           <i onClick={() => setMenuOpen(false)} class="fi fi-rs-circle-xmark text-xl"></i>

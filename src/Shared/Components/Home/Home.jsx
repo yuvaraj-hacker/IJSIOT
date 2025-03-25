@@ -5,9 +5,9 @@ import { Link } from "react-router-dom";
 function Home() {
   return (
     <>
-      <section className=" flex flex-col gap-5  max-w-[90rem] py-5  mx-auto md:px-5 px-3">
+      <section className=" flex flex-col gap-5  max-w-[90rem]  mx-auto md:px-5 px-3">
         <div className="  relative">
-          <section className="flex flex-col gap-5">
+          <section className="flex flex-col gap-7">
             <section className="grid lg:grid-cols-3 gap-5">
               <div className="flex flex-col justify-evenly  lg:col-span-2 md:gap-0 gap-3">
                 <p className="text-justify md:text-base text-sm">
@@ -16,17 +16,21 @@ function Home() {
                   </strong>{" "}
                   is a scholarly journal dedicated to publishing high-quality research articles, reviews, and case studies in the field of the Internet of Things (IoT) and its applications. The journal aims to provide a platform for researchers, academics, and industry professionals to share innovative ideas, cutting-edge technologies, and advancements in smart IoT solutions.
                 </p>
-                {/* <a href="https://ijatra.com/Ijatra/index.php/ijatra/about/submissions" target="_blank" rel="noopener noreferrer" className="w-fit" >
+                {/* <a href="https://IJSIOT.com/IJSIOT/index.php/IJSIOT/about/submissions" target="_blank" rel="noopener noreferrer" className="w-fit" >
                   <button className="md:p-3 p-2 border   border-[#2F1A00] text-[#2F1A00] hover:bg-[#2F1A00] rounded-full hover:text-white duration-300 cursor-pointer w-[170px]">
                     Submit Your Paper
                   </button>
                 </a> */}
               </div>
-              <img className="mx-auto    " src="/assets/Images/HERO (2).jpg" alt="" />
+              <div className="relative w-full">
+                <img className="mx-auto w-full" src="/assets/Images/iot.jpg" alt="" />
+                <div className="absolute inset-0 bg-[#2F1A00] opacity-40"></div>
+              </div>
+
             </section>
             <section className="flex flex-col gap-4">
               <div className='p-0.5  '>
-                <h1 className=" text-[#2F1A00]  underline underline-offset-4 decoration-[#2F1A00]     text-center merry   md:p-3 p-2 font-bold  lg:text-2xl   text-lg ">
+                <h1 className=" text-[#2F1A00]  underline underline-offset-4 decoration-[#2F1A00]     text-center merry  font-bold  lg:text-2xl   text-lg ">
                   About Our Publication
                 </h1>
               </div>
@@ -35,7 +39,7 @@ function Home() {
 
                 IJSIOT aims to bridge the gap between theory and practice, fostering interdisciplinary research that integrates IoT with Artificial Intelligence (AI), Machine Learning (ML), Big Data, Cloud Computing, Edge Computing, Blockchain, Cybersecurity, and 5G technologies.                </p>
 
-              <Link to='/about' className="w-fit ml-auto">
+              <Link to='/about' className="w-fit mx-auto">
                 <button className="md:p-3 p-2 border w-[170px] text-white bg-[#B49752]  gap-2 flex justify-center items-center     hover:bg-[#2F1A00] hover:text-white duration-300 cursor-pointer">
                   Read More
                   <i className="fi fi-sr-play text-xs text-white  flex items-center"></i>
@@ -46,7 +50,7 @@ function Home() {
             <section className="flex flex-col gap-4  ">
 
               <div className=''>
-                <h1 className="underline underline-offset-4 decoration-[#2F1A00] text-[#2F1A00]   text-center merry   md:p-3 p-2 font-bold  lg:text-2xl   text-lg ">
+                <h1 className="underline underline-offset-4 decoration-[#2F1A00] text-[#2F1A00]   text-center merry    font-bold  lg:text-2xl   text-lg ">
                   Journal  overview
                 </h1>
               </div>
@@ -59,7 +63,7 @@ function Home() {
                       <FaUnlockAlt className="text-white " />
                     </div>
                     <div className="flex gap-4  ">
-                      <i className="fi fi-sr-play text-xs text-white "></i>
+                      <i className="fi fi-sr-play text-xs text-white mt-1"></i>
                       <p className=" md:text-base text-sm text-white text-justify">All publications are fully open access, ensuring that readers have unrestricted and free access to all published articles.</p>
                     </div>
                   </div>
@@ -71,8 +75,8 @@ function Home() {
                       <FaUserCheck className="text-white" />
                     </div>
                     <div className="flex gap-4  ">
-                      <i className="fi fi-sr-play text-xs text-white "></i>
-                      <p className=" md:text-base text-sm text-white text-justify">IJATRA is a peer-reviewed journal. All submitted manuscripts undergo a rigorous blind peer-review process to ensure the highest standards of quality and academic integrity</p>
+                      <i className="fi fi-sr-play text-xs text-white  mt-1 "></i>
+                      <p className=" md:text-base text-sm text-white text-justify">IJSIOT maintains the highest academic integrity through a rigorous blind peer-review process, ensuring each manuscript meets standards of originality, scientific quality, and relevance in the field of IoT and smart applications.</p>
                     </div>
                   </div>
 
@@ -85,19 +89,17 @@ function Home() {
                       <FaDatabase className="text-white" />
                     </div>
                     <div className="flex gap-4  ">
-                      <i className="fi fi-sr-play text-xs text-white "></i>
-                      <p className=" md:text-base text-sm text-white text-justify">All published articles are designed for maximum visibility on search engines, adhering to advanced SEO standards to ensure widespread discoverability and accessibility.</p>
+                      <i className="fi fi-sr-play text-xs text-white  mt-1 "></i>
+                      <p className=" md:text-base text-sm text-white text-justify">IJSIOT optimizes all articles for SEO and discoverability, enhancing their visibility and impact. The journal actively pursues indexing in leading academic databases and repositories.</p>
                     </div>
                   </div>
-
-
                 </div>
               </div>
             </section>
             <section className="flex flex-col gap-4">
               <div className='p-0.5  '>
-                <h1 className="underline underline-offset-4 decoration-[#2F1A00] text-[#2F1A00]    text-center merry   md:p-3 p-2 font-bold  lg:text-2xl   text-lg ">
-                  The Journal covers following areas :
+                <h1 className="underline underline-offset-4 decoration-[#2F1A00] text-[#2F1A00]    text-center merry  font-bold  lg:text-2xl   text-lg ">
+                  The Journal covers following areas
                 </h1>
               </div>
               <div className="grid grid-cols-1 lg:grid-cols-3  md:grid-cols-3">
