@@ -14,7 +14,7 @@ function Copyrights() {
                                 </h1>
                             </div>
                             <p className="text-justify md:text-base text-sm">
-                                The International Journal of Smart Internet of Things and Applications (IJSIOT) is committed to upholding ethical publishing standards and protecting the rights of authors, reviewers, and the journal. This page outlines the copyright policies, licensing terms, and author responsibilities.            </p>
+                                The International Journal of Smart Internet of Things and Applications is committed to upholding ethical publishing standards and protecting the rights of authors, reviewers, and the journal. This page outlines the copyright policies, licensing terms, and author responsibilities.            </p>
                         </section>
 
                         <section className='grid   grid-cols-1  md:gap-4 gap-3'>

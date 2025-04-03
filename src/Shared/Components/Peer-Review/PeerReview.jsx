@@ -13,7 +13,7 @@ function PeerReview() {
                                 </h1>
                             </div>
                             <p className="text-justify md:text-base text-sm">
-                                International Journal of smart Internet of Things and applications (IJSIOT) follows a rigorous peer review process to maintain the highest standards of academic excellence and research integrity.                            </p>
+                                International Journal of smart Internet of Things and applications follows a rigorous peer review process to maintain the highest standards of academic excellence and research integrity.                            </p>
 
                         </section>
 

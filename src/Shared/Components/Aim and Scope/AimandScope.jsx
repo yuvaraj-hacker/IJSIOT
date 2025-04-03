@@ -13,7 +13,7 @@ function AimandScope() {
                                 </h1>
                             </div>
                             <p className="text-justify md:text-base text-sm">
-                                The International Journal of Smart Internet of Things and Applications (IJSIOT) is a peer-reviewed, open-access journal dedicated to advancing research and innovation in the field of Smart IoT. The journal aims to provide a platform for researchers, academicians, and industry professionals to publish high-quality research on the latest trends, technologies, and challenges in IoT and its diverse applications.
+                                The International Journal of Smart Internet of Things and Applications is a peer-reviewed, open-access journal dedicated to advancing research and innovation in the field of Smart IoT. The journal aims to provide a platform for researchers, academicians, and industry professionals to publish high-quality research on the latest trends, technologies, and challenges in IoT and its diverse applications.
                             </p>
                         </section>
 

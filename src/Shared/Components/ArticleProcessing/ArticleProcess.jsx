@@ -13,7 +13,7 @@ function ArticleProcess() {
                                 </h1>
                             </div>
                             <p className="text-justify md:text-base text-sm">
-                                International Journal of smart Internet of Things and applications (IJSIOT) follows a structured article processing workflow to ensure timely and high-quality publication of research articles.                            </p>
+                                International Journal of smart Internet of Things and applications follows a structured article processing workflow to ensure timely and high-quality publication of research articles.                            </p>
                         </section>
 
                         <section className="flex flex-col gap-2">

@@ -13,7 +13,7 @@ function Publication() {
                                     </h1>
                             </div>
                             <p className="text-justify md:text-base text-sm">
-                            International Journal of smart Internet of Things and applications (IJSIOT) is committed to upholding the highest ethical standards in scholarly publishing. Authors, reviewers, and editors are expected to adhere to the following principles:
+                            International Journal of smart Internet of Things and applications is committed to upholding the highest ethical standards in scholarly publishing. Authors, reviewers, and editors are expected to adhere to the following principles:
                             </p>
                         </section>
 

@@ -13,7 +13,7 @@ function Abstracting() {
                                 </h1>
                             </div>
                             <p className="text-justify md:text-base text-sm">
-                                International Journal of smart Internet of Things and applications (IJSIOT) is committed to ensuring the visibility and accessibility of published research. Our journal is indexed in various reputed databases to enhance the reach and impact of our articles.
+                                International Journal of smart Internet of Things and applications is committed to ensuring the visibility and accessibility of published research. Our journal is indexed in various reputed databases to enhance the reach and impact of our articles.
                             </p>
                         </section>
 

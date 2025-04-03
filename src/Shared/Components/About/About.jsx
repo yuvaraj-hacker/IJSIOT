@@ -14,7 +14,7 @@ function About() {
                   </h1>
                 </div>
                 <p className="text-justify md:text-base text-sm">
-                  The International Journal of Smart Internet of Things and Applications (IJSIOT) is a peer-reviewed, open-access journal dedicated to publishing high-quality research and advancements in IoT technologies, smart systems, connected devices, and their practical applications. It serves as a platform for researchers, academicians, and industry professionals to share innovative ideas, methodologies, and cutting-edge developments that drive IoT implementation across various domains, including manufacturing, healthcare, transportation, agriculture, smart homes, and smart cities. Committed to fostering interdisciplinary research, IJSIOT welcomes original research articles, review papers, case studies, and technical reports that contribute to the continuous evolution of smart IoT technologies and their real-world applications.                </p>
+                  The International Journal of Smart Internet of Things and Applications is a peer-reviewed, open-access journal dedicated to publishing high-quality research and advancements in IoT technologies, smart systems, connected devices, and their practical applications. It serves as a platform for researchers, academicians, and industry professionals to share innovative ideas, methodologies, and cutting-edge developments that drive IoT implementation across various domains, including manufacturing, healthcare, transportation, agriculture, smart homes, and smart cities. Committed to fostering interdisciplinary research, IJSIOT welcomes original research articles, review papers, case studies, and technical reports that contribute to the continuous evolution of smart IoT technologies and their real-world applications.                </p>
               </div>
             </section>
             <section>
@@ -49,11 +49,11 @@ function About() {
             <section className="flex flex-col md:gap-4 gap-3">
               <div className='  '>
                 <h1 className="   text-center merry   font-bold  lg:text-2xl   underline underline-offset-4 decoration-[#2F1A00] text-[#2F1A00]  text-lg ">
-                  Scope of the International Journal of Smart Internet of Things and Applications (IJSIOT)
+                  Scope of the International Journal of Smart Internet of Things and Applications
                 </h1>
               </div>
               <p className="text-justify md:text-base bg-[#B49752] text-white p-4  text-sm">
-                The International Journal of Smart Internet of Things and Applications (IJSIOT) aims to provide a comprehensive platform for researchers, academicians, and industry professionals to share and discuss advancements in IoT technologies, applications, and innovations. The journal covers a broad spectrum of topics, including but not limited to:              </p>
+                The International Journal of Smart Internet of Things and Applications  aims to provide a comprehensive platform for researchers, academicians, and industry professionals to share and discuss advancements in IoT technologies, applications, and innovations. The journal covers a broad spectrum of topics, including but not limited to:              </p>
               <div className='flex flex-col gap-2 md:text-base text-sm'>
                 {/* <div className='flex items-center gap-2'>
                   <i className="fi fi-rr-angle-double-small-right   flex items-center"></i>
@@ -88,7 +88,7 @@ function About() {
             <section className="flex flex-col md:gap-4 gap-3">
               <div className='   '>
                 <h1 className="  underline underline-offset-4 decoration-[#2F1A00] text-[#2F1A00] text-center merry  font-bold  lg:text-2xl   text-lg ">
-                  Mission of the International Journal of Smart Internet of Things and Applications (IJSIOT)
+                  Mission of the International Journal of Smart Internet of Things and Applications
                 </h1>
               </div>
               <p className="text-justify md:text-base bg-[#B49752] text-white p-2 text-sm">

@@ -12,7 +12,7 @@ function Home() {
               <div className="flex flex-col md:justify-evenly  lg:col-span-2 md:gap-0 gap-3 md:order-1 order-2 ">
                 <p className="text-justify md:text-base text-sm">
                   <strong className="text-[#2F1A00] text-xl underline underline-offset-4 decoration-[#2F1A00]  ">
-                    The International Journal of Smart Internet of Things and Applications (IJSIOT)
+                    The International Journal of Smart Internet of Things and Applications
                   </strong>{" "}
                   is a scholarly journal dedicated to publishing high-quality research articles, reviews, and case studies in the field of the Internet of Things (IoT) and its applications. The journal aims to provide a platform for researchers, academics, and industry professionals to share innovative ideas, cutting-edge technologies, and advancements in smart IoT solutions.
                 </p>
@@ -46,7 +46,7 @@ function Home() {
                 </h1>
               </div>
               <p className="text-justify md:text-base text-sm">
-                The International Journal of Smart Internet of Things and Applications (IJSIOT) is a peer-reviewed, open-access journal committed to advancing cutting-edge research, technological innovations, and real-world applications in the field of the Internet of Things (IoT). The journal serves as a global platform for researchers, academicians, industry professionals, and technology enthusiasts to exchange knowledge, novel ideas, and emerging trends in smart IoT systems.
+                The International Journal of Smart Internet of Things and Applications is a peer-reviewed, open-access journal committed to advancing cutting-edge research, technological innovations, and real-world applications in the field of the Internet of Things (IoT). The journal serves as a global platform for researchers, academicians, industry professionals, and technology enthusiasts to exchange knowledge, novel ideas, and emerging trends in smart IoT systems.
 
                 IJSIOT aims to bridge the gap between theory and practice, fostering interdisciplinary research that integrates IoT with Artificial Intelligence (AI), Machine Learning (ML), Big Data, Cloud Computing, Edge Computing, Blockchain, Cybersecurity, and 5G technologies.                </p>
 

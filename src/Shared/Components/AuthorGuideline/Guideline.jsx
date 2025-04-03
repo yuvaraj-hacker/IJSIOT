@@ -57,7 +57,7 @@ function Guideline() {
                                 </h1>
                             </div>
                             <p className="text-justify md:text-base text-sm">
-                                Authors submitting to the International Journal of Smart Internet of Things and Applications (IJSIOT) must ensure that their manuscripts align with the journal’s scope and adhere to the following guidelines:
+                                Authors submitting to the International Journal of Smart Internet of Things and Applications must ensure that their manuscripts align with the journal’s scope and adhere to the following guidelines:
                             </p>
                             <div className='flex flex-col gap-2  md:text-base text-sm'>
                                 <div className='flex items-center gap-2'>

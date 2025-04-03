@@ -14,7 +14,7 @@ const Footer = () => {
             <div className='flex flex-col justify-center md:items-start items-center md:text-left lg:text-base text-sm'>
               <div className='flex gap-3 items-center'>
                 <FaEnvelope />
-                <p>  <a href=" " className=" ">editorijsiot@gmail.com</a></p>
+                <p>  <a href=" " className=" "> editor@ijsiot.com</a></p>
               </div>
               <div className='flex gap-3 items-center'>
                 <FaGlobe />
